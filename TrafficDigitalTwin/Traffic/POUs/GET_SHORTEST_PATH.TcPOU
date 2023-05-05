@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="GET_SHORTEST_PATH" Id="{880a5606-6801-48af-8197-1a765a98a14a}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION GET_SHORTEST_PATH
+VAR_INPUT
+	nCurrentNode : INT;
+	aParents : ARRAY[1..24] OF INT;
+END_VAR
+VAR
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF NOT (nCurrentNode = 0) THEN
+	GET_SHORTEST_PATH(aParents[nCurrentNode], aParents);
+	GLOBALS.aRoadFlags[nCurrentNode] := TRUE;
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="GET_SHORTEST_PATH">
+      <LineId Id="7" Count="0" />
+      <LineId Id="10" Count="0" />
+      <LineId Id="12" Count="0" />
+      <LineId Id="11" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

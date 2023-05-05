@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="MAIN" Id="{0a437958-698d-422f-9c03-3af28897c590}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM MAIN
+VAR
+	bShouldCalculate : BOOL;
+	aDistances : ARRAY[1..24] OF INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[IF bShouldCalculate THEN
+	aDistances := DIJKSTRA(GLOBALS.stGraph, 11, 4);
+	bShouldCalculate := FALSE;
+END_IF]]></ST>
+    </Implementation>
+    <LineIds Name="MAIN">
+      <LineId Id="9" Count="0" />
+      <LineId Id="180" Count="0" />
+      <LineId Id="171" Count="1" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

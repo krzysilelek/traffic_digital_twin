@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="GLOBALS" Id="{2d257158-6551-450b-9c5f-577694e5a379}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+nWeightAH : INT := 10;
+nWeightBC : INT := 15;
+nWeightDE : INT := 20;
+nWeightFG : INT := 25;
+//RIGHTS AH
+stNode1to16 : ST_ADJNODE := (nNode:=16, nWeight:=ADR(nWeightAH));
+stNode17to2 : ST_ADJNODE := (nNode:=2, nWeight:=ADR(nWeightAH));
+stNode23to18 : ST_ADJNODE := (nNode:=18, nWeight:=ADR(nWeightAH));
+stNode15to24 : ST_ADJNODE := (nNode:=24, nWeight:=ADR(nWeightAH));
+//RIGHTS BC
+stNode3to17 : ST_ADJNODE := (nNode:=17, nWeight:=ADR(nWeightBC));
+stNode5to4 : ST_ADJNODE := (nNode:=4, nWeight:=ADR(nWeightBC));
+stNode20to6 : ST_ADJNODE := (nNode:=6, nWeight:=ADR(nWeightBC));
+stNode18to19 : ST_ADJNODE := (nNode:=19, nWeight:=ADR(nWeightBC));
+//RIGHTS DE
+stNode19to21 : ST_ADJNODE := (nNode:=21, nWeight:=ADR(nWeightDE));
+stNode7to20 : ST_ADJNODE := (nNode:=20, nWeight:=ADR(nWeightDE));
+stNode9to8 : ST_ADJNODE := (nNode:=8, nWeight:=ADR(nWeightDE));
+stNode22to10 : ST_ADJNODE := (nNode:=10, nWeight:=ADR(nWeightDE));
+//RIGHTS FG
+stNode24to14 : ST_ADJNODE := (nNode:=14, nWeight:=ADR(nWeightFG));
+stNode21to23 : ST_ADJNODE := (nNode:=23, nWeight:=ADR(nWeightFG));
+stNode11to22 : ST_ADJNODE := (nNode:=22, nWeight:=ADR(nWeightFG));
+stNode13to12 : ST_ADJNODE := (nNode:=12, nWeight:=ADR(nWeightFG));
+
+
+//STRAIGHTS AH
+stNode1to24 : ST_ADJNODE := (nNode:=24, nWeight:=ADR(nWeightAH));
+stNode23to2 : ST_ADJNODE := (nNode:=2, nWeight:=ADR(nWeightAH));
+stNode17to16 : ST_ADJNODE := (nNode:=16, nWeight:=ADR(nWeightAH));
+stNode15to18 : ST_ADJNODE := (nNode:=18, nWeight:=ADR(nWeightAH));
+//STRAIGHTS BC
+stNode3to19 : ST_ADJNODE := (nNode:=19, nWeight:=ADR(nWeightBC));
+stNode20to4 : ST_ADJNODE := (nNode:=4, nWeight:=ADR(nWeightBC));
+stNode5to17 : ST_ADJNODE := (nNode:=17, nWeight:=ADR(nWeightBC));
+stNode18to6 : ST_ADJNODE := (nNode:=6, nWeight:=ADR(nWeightBC));
+//STRAIGHTS DE
+stNode19to10 : ST_ADJNODE := (nNode:=10, nWeight:=ADR(nWeightDE));
+stNode9to20 : ST_ADJNODE := (nNode:=20, nWeight:=ADR(nWeightDE));
+stNode7to21 : ST_ADJNODE := (nNode:=21, nWeight:=ADR(nWeightDE));
+stNode22to8 : ST_ADJNODE := (nNode:=8, nWeight:=ADR(nWeightDE));
+//STRAIGHTS FG
+stNode24to12 : ST_ADJNODE := (nNode:=12, nWeight:=ADR(nWeightFG));
+stNode11to23 : ST_ADJNODE := (nNode:=23, nWeight:=ADR(nWeightFG));
+stNode21to14 : ST_ADJNODE := (nNode:=14, nWeight:=ADR(nWeightFG));
+stNode13to22 : ST_ADJNODE := (nNode:=22, nWeight:=ADR(nWeightFG));
+
+
+//LEFTS AH
+stNode1to18 : ST_ADJNODE := (nNode:=18, nWeight:=ADR(nWeightAH));
+stNode15to2 : ST_ADJNODE := (nNode:=2, nWeight:=ADR(nWeightAH));
+stNode17to24 : ST_ADJNODE := (nNode:=24, nWeight:=ADR(nWeightAH));
+stNode23to16 : ST_ADJNODE := (nNode:=16, nWeight:=ADR(nWeightAH));
+//LEFTS BC
+stNode3to6 : ST_ADJNODE := (nNode:=6, nWeight:=ADR(nWeightBC));
+stNode18to4 : ST_ADJNODE := (nNode:=4, nWeight:=ADR(nWeightBC));
+stNode5to19 : ST_ADJNODE := (nNode:=19, nWeight:=ADR(nWeightBC));
+stNode20to17 : ST_ADJNODE := (nNode:=17, nWeight:=ADR(nWeightBC));
+//LEFTS DE
+stNode19to8 : ST_ADJNODE := (nNode:=8, nWeight:=ADR(nWeightDE));
+stNode22to20 : ST_ADJNODE := (nNode:=20, nWeight:=ADR(nWeightDE));
+stNode7to10 : ST_ADJNODE := (nNode:=10, nWeight:=ADR(nWeightDE));
+stNode9to21 : ST_ADJNODE := (nNode:=21, nWeight:=ADR(nWeightDE));
+//LEFTS FG
+stNode24to22 : ST_ADJNODE := (nNode:=22, nWeight:=ADR(nWeightFG));
+stNode13to23 : ST_ADJNODE := (nNode:=23, nWeight:=ADR(nWeightFG));
+stNode21to12 : ST_ADJNODE := (nNode:=12, nWeight:=ADR(nWeightFG));
+stNode11to14 : ST_ADJNODE := (nNode:=14, nWeight:=ADR(nWeightFG));
+
+stNodesFrom1 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode1to16), ADR(stNode1to18), ADR(stNode1to24)]);
+stNodesFrom3 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode3to17), ADR(stNode3to19), ADR(stNode3to6)]);
+stNodesFrom5 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode5to17), ADR(stNode5to19), ADR(stNode5to4)]);
+stNodesFrom7 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode7to10), ADR(stNode7to20), ADR(stNode7to21)]);
+stNodesFrom9 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode9to20), ADR(stNode9to21), ADR(stNode9to8)]);
+stNodesFrom11 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode11to14), ADR(stNode11to22), ADR(stNode11to23)]);
+stNodesFrom13 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode13to12), ADR(stNode13to22), ADR(stNode13to23)]);
+stNodesFrom15 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode15to18), ADR(stNode15to2), ADR(stNode15to24)]);
+stNodesFrom17 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode17to16), ADR(stNode17to2), ADR(stNode17to24)]);
+stNodesFrom18 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode18to19), ADR(stNode18to4), ADR(stNode18to6)]);
+stNodesFrom19 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode19to10), ADR(stNode19to21), ADR(stNode19to8)]);
+stNodesFrom20 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode20to17), ADR(stNode20to4), ADR(stNode20to6)]);
+stNodesFrom21 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode21to12), ADR(stNode21to14), ADR(stNode21to23)]);
+stNodesFrom22 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode22to10), ADR(stNode22to20), ADR(stNode22to8)]);
+stNodesFrom23 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode23to16), ADR(stNode23to18), ADR(stNode23to2)]);
+stNodesFrom24 : ST_ADJLIST := (aAdjNodes:=[ADR(stNode24to12), ADR(stNode24to14), ADR(stNode24to22)]);
+
+stGraph : ST_GRAPH := (aAdjLists:=[
+ADR(stNodesFrom1),
+0,
+ADR(stNodesFrom3),
+0,
+ADR(stNodesFrom5),
+0,
+ADR(stNodesFrom7),
+0,
+ADR(stNodesFrom9),
+0,
+ADR(stNodesFrom11),
+0,
+ADR(stNodesFrom13),
+0,
+ADR(stNodesFrom15),
+0,
+ADR(stNodesFrom17),
+ADR(stNodesFrom18),
+ADR(stNodesFrom19),
+ADR(stNodesFrom20),
+ADR(stNodesFrom21),
+ADR(stNodesFrom22),
+ADR(stNodesFrom23),
+ADR(stNodesFrom24)]);
+
+nAVeryLargeNumber : INT := 32767;
+aRoadFlags : ARRAY[1..24] OF BOOL;
+
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>
