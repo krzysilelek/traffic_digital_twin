@@ -40,4 +40,4 @@
 /TrafficDigitalTwin/_Config
 /TrafficDigitalTwin/Traffic/_CompileInfo
 /TrafficDigitalTwin/Traffic/_Libraries
-*.~u
+/TrafficDigitalTwin/TrafficDigitalTwin.project.~u
