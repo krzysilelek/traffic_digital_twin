@@ -5,16 +5,25 @@
 VAR
 	bShouldCalculate : BOOL;
 	aDistances : ARRAY[1..24] OF INT;
+	nStartPosition : INT := 1;
+	nEndPosition: INT := 2;
+	i: INT;
 END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[IF bShouldCalculate THEN
-	aDistances := DIJKSTRA(GLOBALS.stGraph, 11, 4);
+	FOR i := 1 TO 24 DO
+		GLOBALS.aRoadFlags[i] := FALSE;
+	END_FOR
+	aDistances := DIJKSTRA(GLOBALS.stGraph, nStartPosition, nEndPosition);
 	bShouldCalculate := FALSE;
 END_IF]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="9" Count="0" />
+      <LineId Id="190" Count="0" />
+      <LineId Id="193" Count="0" />
+      <LineId Id="189" Count="0" />
       <LineId Id="180" Count="0" />
       <LineId Id="171" Count="1" />
     </LineIds>

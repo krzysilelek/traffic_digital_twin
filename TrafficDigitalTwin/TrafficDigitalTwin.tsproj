@@ -10,7 +10,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{0999454F-9EF3-4CED-BCAF-FA5A2C7ACAFD}" Name="Traffic" PrjFilePath="Traffic\Traffic.plcproj" TmcFilePath="Traffic\Traffic.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Traffic\Traffic.tmc" TmcHash="{39A15D15-8723-C152-CCF7-67912ADB161C}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Traffic\Traffic.tmc" TmcHash="{11D7E35A-41D9-5BC7-E3EB-A5930394F135}">
 					<Name>Traffic Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Contexts>
