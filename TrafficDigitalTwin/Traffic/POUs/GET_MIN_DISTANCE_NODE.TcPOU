@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="GET_MIN_DISTANCE_NODE" Id="{8e711ae3-9854-4a55-b940-55e63fc297b4}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION GET_MIN_DISTANCE_NODE : INT
+VAR_INPUT
+	aDistances : ARRAY[1..24] OF INT;
+	aVisited : ARRAY[1..24] OF BOOL;
+END_VAR
+VAR
+	i, nMinIndex, nMinDistance : INT;
+END_VAR]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[nMinIndex := -1;
+nMinDistance := GLOBALS.nAVeryLargeNumber;
+
+FOR i := 1 TO 24 DO
+	IF NOT (aVisited[i]) AND (aDistances[i] <= nMinDistance) THEN
+		nMinDistance := aDistances[i];
+		nMinIndex := i;
+	END_IF
+END_FOR
+
+GET_MIN_DISTANCE_NODE := nMinIndex;]]></ST>
+    </Implementation>
+    <LineIds Name="GET_MIN_DISTANCE_NODE">
+      <LineId Id="11" Count="0" />
+      <LineId Id="46" Count="0" />
+      <LineId Id="16" Count="0" />
+      <LineId Id="21" Count="0" />
+      <LineId Id="37" Count="0" />
+      <LineId Id="39" Count="0" />
+      <LineId Id="41" Count="0" />
+      <LineId Id="40" Count="0" />
+      <LineId Id="38" Count="0" />
+      <LineId Id="43" Count="0" />
+      <LineId Id="42" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>

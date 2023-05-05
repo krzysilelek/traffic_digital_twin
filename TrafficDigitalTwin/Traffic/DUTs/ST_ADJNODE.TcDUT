@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <DUT Name="ST_ADJNODE" Id="{f8ab38e0-f2dc-4d52-ac01-6ec2e12194f3}">
+    <Declaration><![CDATA[TYPE ST_ADJNODE :
+STRUCT
+	nNode	: INT;
+	nWeight	: POINTER TO INT;
+END_STRUCT
+END_TYPE
+]]></Declaration>
+  </DUT>
+</TcPlcObject>

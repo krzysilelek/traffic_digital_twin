@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="DIJKSTRA" Id="{f12d046f-06b3-4953-8873-24d60fcc44db}" SpecialFunc="None">
+    <Declaration><![CDATA[FUNCTION DIJKSTRA : ARRAY[1..24] OF INT
+VAR_INPUT
+	stGraph : ST_GRAPH;
+	nSourceNode : INT;
+	nDestinationNode : INT;
+END_VAR
+VAR
+	i, nMinDistanceNode, nAdjacentNode, nDistance: INT;
+	nNodeInList : DINT;
+	aDistances : ARRAY[1..24] OF INT;
+	aVisited : ARRAY[1..24] OF BOOL;
+	aParents : ARRAY[1..24] OF INT;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[FOR i := 1 TO 24 DO
+	aDistances[i] := GLOBALS.nAVeryLargeNumber;
+	aVisited[i] := FALSE;
+END_FOR
+
+aDistances[nSourceNode] := 0;
+aParents[nSourceNode] := 0;
+
+FOR i := 1 TO 24 DO
+	nMinDistanceNode := GET_MIN_DISTANCE_NODE(aDistances, aVisited);
+	aVisited[nMinDistanceNode] := TRUE;
+	
+	IF NOT (stGraph.aAdjLists[nMinDistanceNode] = 0) THEN
+		FOR nNodeInList := 1 TO 3 DO
+			nAdjacentNode := stGraph.aAdjLists[nMinDistanceNode]^.aAdjNodes[nNodeInList]^.nNode;
+			nDistance := stGraph.aAdjLists[nMinDistanceNode]^.aAdjNodes[nNodeInList]^.nWeight^;
+			IF NOT (aVisited[nAdjacentNode]) AND NOT (aDistances[nMinDistanceNode] = GLOBALS.nAVeryLargeNumber) AND (aDistances[nMinDistanceNode] + nDistance < aDistances[nAdjacentNode]) THEN
+				aDistances[nAdjacentNode] := aDistances[nMinDistanceNode] + nDistance;
+				aParents[nAdjacentNode] :=  nMinDistanceNode;
+			END_IF
+		END_FOR
+	END_IF
+END_FOR
+
+GET_SHORTEST_PATH(nDestinationNode, aParents);
+
+DIJKSTRA := aDistances;]]></ST>
+    </Implementation>
+    <LineIds Name="DIJKSTRA">
+      <LineId Id="7" Count="0" />
+      <LineId Id="20" Count="0" />
+      <LineId Id="22" Count="0" />
+      <LineId Id="21" Count="0" />
+      <LineId Id="24" Count="0" />
+      <LineId Id="23" Count="0" />
+      <LineId Id="75" Count="0" />
+      <LineId Id="61" Count="0" />
+      <LineId Id="33" Count="0" />
+      <LineId Id="50" Count="8" />
+      <LineId Id="73" Count="0" />
+      <LineId Id="59" Count="1" />
+      <LineId Id="48" Count="1" />
+      <LineId Id="77" Count="0" />
+      <LineId Id="47" Count="0" />
+      <LineId Id="79" Count="0" />
+      <LineId Id="46" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
