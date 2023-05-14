@@ -26,6 +26,10 @@
     <Compile Include="DUTs\ST_GRAPH.TcDUT">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="GVLs\CONSTANTS.TcGVL">
+      <SubType>Code</SubType>
+      <LinkAlways>true</LinkAlways>
+    </Compile>
     <Compile Include="GVLs\GLOBALS.TcGVL">
       <SubType>Code</SubType>
       <LinkAlways>true</LinkAlways>
@@ -43,6 +47,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POUs\DIJKSTRA.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\SIM_VALUES_CALC.TcPOU">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POUs\TICK.TcPOU">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

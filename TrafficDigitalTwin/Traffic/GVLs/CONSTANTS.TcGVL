@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <GVL Name="CONSTANTS" Id="{e7b6594e-ca09-437c-aeca-1a2021ebdc12}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	nIntMax : INT := 32767;
+	
+	// Base time in seconds required for <5 cars to pass through a crossroads.
+	nBaseWeightSR : INT := 10;
+	nBaseWeightL : INT := 20;
+	
+	// Most significant points in a made-up graph illustrating the intensity of traffic flow at specified hours.
+	// aTrafficFlowTimes - X axis
+	// aTrafficFlowVals - Y axis
+	// To find the value of flow intensity inbetween these points, the following formula is used:
+	// if (x2 < x1) x2 := x2 + 24; y := (x - x1) * (y2 - y1) / (x2 - x1) + y1;
+	aTrafficFlowTimes : ARRAY[1..4] OF TOD := [TOD#4:0:0, TOD#9:0:0, TOD#12:0:0, TOD#17:0:0];
+	aTrafficFlowVals : ARRAY[1..4] OF REAL := [0.0,       1.0,       0.5,        0.9];
+	
+	// Each day of the week has a different modifier for traffic intensity as well. 1 means Monday, 7 means Sunday.
+	aTrafficFlowDaysVals : ARRAY[1..7] OF REAL := [1.0, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7];
+	
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

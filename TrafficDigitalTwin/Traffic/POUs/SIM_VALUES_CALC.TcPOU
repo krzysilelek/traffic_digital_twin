@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.12">
+  <POU Name="SIM_VALUES_CALC" Id="{5dcce80c-4a28-4ceb-841b-d37256052b52}" SpecialFunc="None">
+    <Declaration><![CDATA[PROGRAM SIM_VALUES_CALC
+VAR
+	x, x1, x2, y1, y2, y : REAL;	
+
+	rPltMd: REAL;
+	rPltMdL : REAL;
+	rPltMdSR : REAL;
+END_VAR
+]]></Declaration>
+    <Implementation>
+      <ST><![CDATA[x := UDINT_TO_REAL(TICK.SimTime);
+
+// TICK already does all the conversions and other necessary logic involving x1 and x2.
+x1 := TICK.x1;
+x2 := TICK.x2;
+
+y1 := CONSTANTS.aTrafficFlowVals[TICK.x1i];
+y2 := CONSTANTS.aTrafficFlowVals[TICK.x2i];
+
+y := (y2 - y1) * (x - x1) / (x2 - x1) + y1;
+
+GLOBALS.rModifier := y * CONSTANTS.aTrafficFlowDaysVals[TICK.nDayOfTheWeek];
+
+rPltMd := 1.0 + GLOBALS.rModifier * 0.2;
+rPltMdL := rPltMd * CONSTANTS.nBaseWeightL;
+rPltMdSR := rPltMd * CONSTANTS.nBaseWeightSR;
+
+GLOBALS.nWeightAHxL := REAL_TO_INT(GLOBALS.nAHxL * rPltMdL);
+GLOBALS.nWeightAHyL := REAL_TO_INT(GLOBALS.nAHyL * rPltMdL);
+GLOBALS.nWeightBCxL := REAL_TO_INT(GLOBALS.nBCxL * rPltMdL);
+GLOBALS.nWeightBCyL := REAL_TO_INT(GLOBALS.nBCyL * rPltMdL);
+GLOBALS.nWeightDExL := REAL_TO_INT(GLOBALS.nDExL * rPltMdL);
+GLOBALS.nWeightDEyL := REAL_TO_INT(GLOBALS.nDEyL * rPltMdL);
+GLOBALS.nWeightFGxL := REAL_TO_INT(GLOBALS.nFGxL * rPltMdL);
+GLOBALS.nWeightFGyL := REAL_TO_INT(GLOBALS.nFGyL * rPltMdL);
+
+GLOBALS.nWeightAHxSR := REAL_TO_INT(GLOBALS.nAHxSR * rPltMdL);
+GLOBALS.nWeightAHySR := REAL_TO_INT(GLOBALS.nAHySR * rPltMdL);
+GLOBALS.nWeightBCxSR := REAL_TO_INT(GLOBALS.nBCxSR * rPltMdL);
+GLOBALS.nWeightBCySR := REAL_TO_INT(GLOBALS.nBCySR * rPltMdL);
+GLOBALS.nWeightDExSR := REAL_TO_INT(GLOBALS.nDExSR * rPltMdL);
+GLOBALS.nWeightDEySR := REAL_TO_INT(GLOBALS.nDEySR * rPltMdL);
+GLOBALS.nWeightFGxSR := REAL_TO_INT(GLOBALS.nFGxSR * rPltMdL);
+GLOBALS.nWeightFGySR := REAL_TO_INT(GLOBALS.nFGySR * rPltMdL);]]></ST>
+    </Implementation>
+    <LineIds Name="SIM_VALUES_CALC">
+      <LineId Id="41" Count="0" />
+      <LineId Id="46" Count="0" />
+      <LineId Id="44" Count="0" />
+      <LineId Id="43" Count="0" />
+      <LineId Id="45" Count="0" />
+      <LineId Id="42" Count="0" />
+      <LineId Id="33" Count="0" />
+      <LineId Id="38" Count="0" />
+      <LineId Id="40" Count="0" />
+      <LineId Id="39" Count="0" />
+      <LineId Id="47" Count="1" />
+      <LineId Id="34" Count="0" />
+      <LineId Id="11" Count="0" />
+      <LineId Id="7" Count="0" />
+      <LineId Id="9" Count="0" />
+      <LineId Id="32" Count="0" />
+      <LineId Id="5" Count="0" />
+      <LineId Id="14" Count="6" />
+      <LineId Id="24" Count="7" />
+      <LineId Id="23" Count="0" />
+    </LineIds>
+  </POU>
+</TcPlcObject>
