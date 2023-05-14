@@ -6,7 +6,7 @@
     "CACHEMAXAGE": "P30D",
     "CACHEMAXENTRYSIZE": 1048576,
     "CACHEMAXSIZE": 2097152,
-    "CERTIFICATE": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUQwakNDQXJxZ0F3SUJBZ0lKQUo2Tm9wWFY0NTROTUEwR0NTcUdTSWIzRFFFQkN3VUFNRWt4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4SFRBYkJnTlZCQU1NRkVSRgpVMHRVVDFBdE1GUk5VME5TVmw5eWIyOTBNQ0FYRFRJek1EVXdNakU1TkRjME5sb1lEekl3TmpFd09ETXdNVGswCk56UTJXakJFTVFzd0NRWURWUVFHRXdKRVJURWJNQmtHQTFVRUNnd1NWSGRwYmtOQlZDQklUVWtnVTJWeWRtVnkKTVJnd0ZnWURWUVFEREE5RVJWTkxWRTlRTFRCVVRWTkRVbFl3Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQgpEd0F3Z2dFS0FvSUJBUURSZFZZNTQwdnpYNnRFQXhGOGxLS0owS0pKQ1R4MzJyeFYya3poc3dFd0tzdytib2VZCnJDQi9uMFMyTk5mWWtkWXBUVlJRSXZJRG01TUxQdlFjejBOZ1Raazc1OHluZmVVMEZiUlMxR2dGNjRGNHU1MkcKT2twZmJaT0ptSWZiY0g5M2RlSXlEQkNYNlcvSHR5anUvRHpXVVppaCtVTnVIVnFHUys1NlpBbmFobWpON2F1Mwo0VnhuN0h1ZWFmWDVpTFF3cnlKUFlKcVBpbCtrOXFoR0RLT1RxRUpTMU45MHZjbXVoM2RnK3dqbGtJaWZjTWlYCmVCMnVMeUVrUGVQbFdibDFPNXlNV2xkTWJXNEtTWkxyQ2RpTE5YS25od3NyTWFqWDV0WGhxYTdQTUdtZ3VZUVMKckdyVXc1RlcyS3BRWVExUVZzdU1oYlgxYTljbDU4ZGxmVHNCQWdNQkFBR2pnYjh3Z2J3d2dZd0dBMVVkRVFTQgpoRENCZ1lJSmJHOWpZV3hvYjNOMGh3Ui9BQUFCaHhBQUFBQUFBQUFBQUFBQUFBQUFBQUFCZ2c5RVJWTkxWRTlRCkxUQlVUVk5EVWxhQ0QwUkZVMHRVVDFBdE1GUk5VME5TVm9jRXdLZ0FPNGNRS2dLakZLTkZzQURoeE5qTXZyVEEKUEljUUtnS2pGS05Gc0FEbGtsSitkVDFMTG9jUS9vQUFBQUFBQUFCQ2twQjVtTXFwSlRBZEJnTlZIUTRFRmdRVQpPOTVkTGljZ1J4Q2tITkZ3SXRkTmhkaEJZcHN3REFZRFZSMFRBUUgvQkFJd0FEQU5CZ2txaGtpRzl3MEJBUXNGCkFBT0NBUUVBVXRmZjZpYzdDUVhpVlhzUHN2NW96ekF2UlNLM0pRcGtreHhZeGtuMmlpd3BNUVBoU09BTHIyaCsKajNrRFZvSHptUlhFbXQ2YklGKzcxWE5va2JDb2NydlM1U1pxYUI0WGxDaWNqU0MvTThsR0lnYW9iUmJBTTFEbgpPNDdZM3lSQm9VdmlUSEtEU3NTbUJPMklyNVhPeDlJVHQ0czlHQkpCeVJsNVdzUkIyVkFmRmpPL1pvUWNaYkU2CkM2U3J5V0k0akFoZ2crTWwyYnlhaHhGN2ZDc1VObUpSTU5sU0I0c24xU2VYUlJpVlRuTGpreG9zUHpIY05UUUoKL01RaW12bW9QT0dENjhWSlhjOVpBMXZrWDhRMnU0NlErQk1ZeUtBUzlmVXRCUWlpeUtHaERvOHVMQzQwM0E5SgpEZFlEdDc4K0JPazZiYUJ1aUl1azlSdE1adTE4Unc9PQotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCi0tLS0tQkVHSU4gQ0VSVElGSUNBVEUtLS0tLQpNSUlEMmpDQ0FzS2dBd0lCQWdJSkFMR1d1M0VjTEo2cE1BMEdDU3FHU0liM0RRRUJDd1VBTUVreEN6QUpCZ05WCkJBWVRBa1JGTVJzd0dRWURWUVFLREJKVWQybHVRMEZVSUVoTlNTQlRaWEoyWlhJeEhUQWJCZ05WQkFNTUZFUkYKVTB0VVQxQXRNRlJOVTBOU1ZsOXliMjkwTUNBWERUSXpNRFV3TWpFNU5EYzBObG9ZRHpJd05qRXdPRE13TVRrMApOelEyV2pCSk1Rc3dDUVlEVlFRR0V3SkVSVEViTUJrR0ExVUVDZ3dTVkhkcGJrTkJWQ0JJVFVrZ1UyVnlkbVZ5Ck1SMHdHd1lEVlFRRERCUkVSVk5MVkU5UUxUQlVUVk5EVWxaZmNtOXZkRENDQVNJd0RRWUpLb1pJaHZjTkFRRUIKQlFBRGdnRVBBRENDQVFvQ2dnRUJBTCsvOFI1Z1VtZE45RFFqYjRIWjkyU0k0Q2RSQkRYQnJyaHRJMGhuMEVKZgpYK09GaTFLQ0ZXcHloVjAvdHBrTHR1U04vWWNNN0xsUjh3TU9ETURwK0ZKa0VOZG9rUXlXL3U4N2RERTc5UTltCjJjSEdYSFcxWUYzRE93RnF4VEZpclo1akwycmVZMnFBR2pwL1BPa2R0V3ZEcTVYdGVaVXN4QjQwTkRlRUR3TXEKZVRvY20wak1NSmVPbytjb3dwbzFFODNUMFdxeVhNY3V0VGUvOFVxNzdnZ3Z1YXhNSWdjVzVuZDAva2Z6Si9XYgpIcVZwQ0dNdTF4TEpPMS9tdW1CTXduWVlLVlhVdnNIOWtJdUZqUXF3dFo5Nk9tbVllQkp3NmZ1b1R5Y09yRWc1CnZUamdLSTRWSDJUWWxORzJvMm5JUmZrVjhpeksvdnhnZDBaOXEreElvdTBDQXdFQUFhT0J3akNCdnpDQmpBWUQKVlIwUkJJR0VNSUdCZ2dsc2IyTmhiR2h2YzNTSEJIOEFBQUdIRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUdDRDBSRgpVMHRVVDFBdE1GUk5VME5TVm9JUFJFVlRTMVJQVUMwd1ZFMVRRMUpXaHdUQXFBQTdoeEFxQXFNVW8wV3dBT0hFCjJNeSt0TUE4aHhBcUFxTVVvMFd3QU9XU1VuNTFQVXN1aHhEK2dBQUFBQUFBQUVLU2tIbVl5cWtsTUIwR0ExVWQKRGdRV0JCVEFZZXIvL3F1aE9GTEFmY3pJN08xWmZBcmZ1ekFQQmdOVkhSTUJBZjhFQlRBREFRSC9NQTBHQ1NxRwpTSWIzRFFFQkN3VUFBNElCQVFBTWFnT0xucTk0dUlOT29yTTVRSUp4amZYRm9LZVZwM0srR0doS3F2WElJU0lmCnhmenhKcjRuZ1ZzWTNua3ZjM1RLeFc1S2J3UzIxOEd1MVN4VmkvV2IzVGZLKzQ5TnJJMnZrM1lWS3VsNkJqL0cKSUJ3elVmL1loU1JmOVJJNlZ0Zm15eS9YbXhpT0c4anZPZStTOHJWSEdRekFpMldxWmt5dEVXQXE1YXFPRW5HeApza1NwNlllU0loV2doakNpTUFHWVpIejk4bzBhUnpnNUVhNm9nR0pKU2YvNWw1WUVGUXJlNS8zcWJXWEdnM2VtCkxtMHA3c2JtSVpiSmQ2emwxck9YdC9IMnlmeCtsY0N3cjV1OFJ5V01hbWVLQndoZGY1Y0JwWjdDOTZEdjQ1dDUKM2JIWER3WG42UHkzK2NJSmlVSTgvM3lBcHI0SEtZWEt0M2lObmxPRwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+    "CERTIFICATE": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUR3ekNDQXF1Z0F3SUJBZ0lKQVAyVk5qNzJGb3VhTUEwR0NTcUdTSWIzRFFFQkN3VUFNRWt4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4SFRBYkJnTlZCQU1NRkVSRgpVMHRVVDFBdFFUWTBSVXM1TTE5eWIyOTBNQ0FYRFRJek1EVXhOREU0TkRZek9Wb1lEekl3TmpFd09URXhNVGcwCk5qTTVXakJFTVFzd0NRWURWUVFHRXdKRVJURWJNQmtHQTFVRUNnd1NWSGRwYmtOQlZDQklUVWtnVTJWeWRtVnkKTVJnd0ZnWURWUVFEREE5RVJWTkxWRTlRTFVFMk5FVkxPVE13Z2dFaU1BMEdDU3FHU0liM0RRRUJBUVVBQTRJQgpEd0F3Z2dFS0FvSUJBUUR1dTRIMTIvVlZEQWFXWVV2RGUvSE5OaGlPRXh0aFJFZEhBUStTcjQvSFZmbjJyTi9KCkx5SjJaejN2Nm9zWlJRVnNNcnhTRGpoek9HQ2VPZHJ2RDBvKzJVMit4WXpwb056ejZTdkdQbEFzQ2sxeC9pdHAKUzB0M0hUajdiSVFhQU9QU0dKczVmbDZZcXBpZGdDRWNBOFIyNTlkV2xOTmc0VmM0YTYrOWQ3a1lHaUxWaWtnTwppSGVQdjZzYkxvR0hMMVFaTjE4Ynd5Y0hERi9JQ1RtVHBkTElmT0VSWHhZNFdTS1pFcUtIVkVwNVNaVWRmYjBqCk1BbFVUd0ZQbnM1L0R5ZHZYUTdxNFpkQlZHUjNVU1ZvbWNuQ25nZ3kzMHR4aDJzYVR4Mm9YdWZ1V1A0WmJkTTAKTFFXWkszZTRlNEEzYlFQSWRyV09MMk11TWhQVjBnb1JGTjVsQWdNQkFBR2pnYkF3Z2Ewd2ZnWURWUjBSQkhjdwpkWUlKYkc5allXeG9iM04waHdSL0FBQUJoeEFBQUFBQUFBQUFBQUFBQUFBQUFBQUJnZzlFUlZOTFZFOVFMVUUyCk5FVkxPVE9DRDBSRlUwdFVUMUF0UVRZMFJVczVNNGNFd0tnQjlJY0V3S2c0QVljUS9vQUFBQUFBQUFBWW9SSHYKV1ZXZmpvY1Evb0FBQUFBQUFBRGUzTUxUenlTVUJEQWRCZ05WSFE0RUZnUVU1bUJqSlgvK2dDcE5tL0haMjN5Mwo4OFJLYUpnd0RBWURWUjBUQVFIL0JBSXdBREFOQmdrcWhraUc5dzBCQVFzRkFBT0NBUUVBS2REeU1HZ2JOdVFSCkNKUUMvcGx1NCtON1dsN1RDOVMxVjAybHFIdFUwRDdKWmRtSFZLeEhkd0x1ZXJlV2ZYTTJxSUcvS3crbldka0oKaEN3NklKUlM5bjNtd1NUY1FSZTZUZ0l0KzNMUkN3QTZTTEtuaFU5SzhWYXRiSlV4OTBwQmVNcE83akttRjBLMgpXajhKNTBKTWhBRjZOWExZdlB5M2JudGVma3FWeHZ1M2UwTFA2bE9oZFQ2ZjVRTCtCV3BPT3padyszSkludnBQCnVhSEs3Z3ZYd3gzRFFPR1lqR0tEbEFiejF3Y0dERGZjeHREU1lBNEpsb2U4amtQUmtSYVlGUk1vbEpKcW5Fdm0Ka0NJM3BRVUdZNUJGYU14UUNjOGtHcUltcmR1Y2lvNTVxbHBwTFZDam40V1IvbEZ2SWIwOGpjb2YzWEpxQW5FMQo5MGl1ME5jU0pnPT0KLS0tLS1FTkQgQ0VSVElGSUNBVEUtLS0tLQotLS0tLUJFR0lOIENFUlRJRklDQVRFLS0tLS0KTUlJRHl6Q0NBck9nQXdJQkFnSUpBSUpIM2dyMkJxSDhNQTBHQ1NxR1NJYjNEUUVCQ3dVQU1Fa3hDekFKQmdOVgpCQVlUQWtSRk1Sc3dHUVlEVlFRS0RCSlVkMmx1UTBGVUlFaE5TU0JUWlhKMlpYSXhIVEFiQmdOVkJBTU1GRVJGClUwdFVUMUF0UVRZMFJVczVNMTl5YjI5ME1DQVhEVEl6TURVeE5ERTRORFl6T1ZvWUR6SXdOakV3T1RFeE1UZzAKTmpNNVdqQkpNUXN3Q1FZRFZRUUdFd0pFUlRFYk1Ca0dBMVVFQ2d3U1ZIZHBia05CVkNCSVRVa2dVMlZ5ZG1WeQpNUjB3R3dZRFZRUUREQlJFUlZOTFZFOVFMVUUyTkVWTE9UTmZjbTl2ZERDQ0FTSXdEUVlKS29aSWh2Y05BUUVCCkJRQURnZ0VQQURDQ0FRb0NnZ0VCQUtsTGpkOU9LSmJkaVJrdGFxblhrc09LSGVoV25SczhTWTBxTzFkUnFJeEcKSkhqNlFWUXFBV2x6NnpabnBEcW9XdGZveHRSaWtIa2ZBRmFVMTliSGpjanY5c3hMUW5MODNLWTFTOVhqTVFEUwpPZXhUL3NZYUJxaVFNVzFhTFYvNVB0dTJsTWx2T1FSVldJZTdzY0ZxL1hSV2pibnNScUdTTW1iTEY5YXZUU1FBCnJadzZYWFB5dXY2MkROOVE2bDlmd1ZjcVRVUzV1R0VodEV5T1V1WlI4K29PdmYwZjVoWmovV3VaY3U5ZmRKKzgKWUZHT2lJQ1NBRjkremRKd0phaCtFYklvZ2EwQzRGbW5BSWtRMmtJdVErODl0RlhMT1ZZNkk5a1VnRDgrZEJmRwpGZDNmdi9jaVU1UlQyY2NuVTczM2VkQnhVK1lzck9vb0ZUazRUcTdHR29VQ0F3RUFBYU9Cc3pDQnNEQitCZ05WCkhSRUVkekIxZ2dsc2IyTmhiR2h2YzNTSEJIOEFBQUdIRUFBQUFBQUFBQUFBQUFBQUFBQUFBQUdDRDBSRlUwdFUKVDFBdFFUWTBSVXM1TTRJUFJFVlRTMVJQVUMxQk5qUkZTemt6aHdUQXFBSDBod1RBcURnQmh4RCtnQUFBQUFBQQpBQmloRWU5WlZaK09oeEQrZ0FBQUFBQUFBTjdjd3RQUEpKUUVNQjBHQTFVZERnUVdCQlI5SldUd091L1prSDdSCmc5amt1WkdMNU50UVJEQVBCZ05WSFJNQkFmOEVCVEFEQVFIL01BMEdDU3FHU0liM0RRRUJDd1VBQTRJQkFRQ1kKUTdjNUdKMWltK2U4UGh6RU8zV0doK2Zzb2d0dkluZ2VTTStLM1ZoOGVCczgvR0lFVDRxTmdvVGJuSHZTUHl5dgovL1gyUjRMeklIOGZyTUhBTDhJdnl5eTFsVTlkUXdHRlY2YjlFSTRLOVFUKzJMMDBwNUdodGJKRWVFcVBpVkZ1CjdaRWc2SlFsM0VWK0dGdlhFT1lVQ1NlK3ppb0p3UThPT1ZYRGRDY01pb3Y1U0sveVhOaC8xTm9sQVBOaEhoZXgKQk1JVnhyT2MxbHUzcmJtaGNnL3VWNTZQKzE0OUwwdWNmVDlpbXZEQUJRVDJSdXlXUk5tcXltM3hTcnhxZjU2OQpINzJKQTBZZCtQTU1kKzFMRE1wUGIreTF0eXFTd3ZZWGh4d2gyZThudUdzcVNoTDhuankwTXFPV2ZSaDUzM0NLClFkVFA4dW1iZzN0RmE1dWdtS3BXCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K",
     "CERTIFICATEEXPIRATION": "P14000D",
     "CHECKSUMENABLED": true,
     "CHUNKSIZE": 1048576,
@@ -17,6 +17,7 @@
         "remote"
     ],
     "COOKIEEXPIRATIONDATE": "P30D",
+    "CUSTOM_CSS": "",
     "DEFAULTAUTHEXTENSION": "TcHmiUserManagement",
     "DEFAULTDOCUMENT": [
         "Default.html"
@@ -79,13 +80,14 @@
         }
     ],
     "FLOODPROTECTION": 500,
+    "FLOODPROTECTION_LOG_INTERVAL": "PT1M",
     "GLOBALHTTPHEADERS": "{LASTMODIFIED}\nStrict-Transport-Security: max-age=31536000; includeSubDomains\nX-Content-Type-Options: nosniff",
     "GZIPENABLED": true,
     "GZIPMINSIZE": 800,
     "HTTP_FLOODPROTECTION": 10,
     "INITTIMEOUT": "PT10S",
     "KEEP_ALIVE": "PT40S",
-    "KEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2UUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktjd2dnU2pBZ0VBQW9JQkFRRFJkVlk1NDB2elg2dEUKQXhGOGxLS0owS0pKQ1R4MzJyeFYya3poc3dFd0tzdytib2VZckNCL24wUzJOTmZZa2RZcFRWUlFJdklEbTVNTApQdlFjejBOZ1Raazc1OHluZmVVMEZiUlMxR2dGNjRGNHU1MkdPa3BmYlpPSm1JZmJjSDkzZGVJeURCQ1g2Vy9ICnR5anUvRHpXVVppaCtVTnVIVnFHUys1NlpBbmFobWpON2F1MzRWeG43SHVlYWZYNWlMUXdyeUpQWUpxUGlsK2sKOXFoR0RLT1RxRUpTMU45MHZjbXVoM2RnK3dqbGtJaWZjTWlYZUIydUx5RWtQZVBsV2JsMU81eU1XbGRNYlc0SwpTWkxyQ2RpTE5YS25od3NyTWFqWDV0WGhxYTdQTUdtZ3VZUVNyR3JVdzVGVzJLcFFZUTFRVnN1TWhiWDFhOWNsCjU4ZGxmVHNCQWdNQkFBRUNnZ0VBTExGODFKMUxkNExTYUpDL0NuWXN1SHRzSldsekhaL3V6K0xreE1RTlhObkUKK3cxYW9aa1kxaUtGNXRzZnMzWnEzQ1ZEK0ZWOGpvaUR0OEtYRkE2bHNjYmRDNHRLZi9LOUZZQU1HaUI0a2NyTwp0WlJTNkhGSHJWVVVSaWZsMVUwTDVkR2hra3hBdmlseFVJd2tqOW9Db1RpSCtRZlcrNGdINk9BSzR0SzF4NHJECnVHREFkMjNZNURTVTFJNGJ1NTNXaVE4bFdCS0djdHUzREpEOTEwVE8rZDV4Y1BTUnZVVXFFU243VENmdXc4N0YKK2xTeklIM0xwNHZsWDR4ZzV1ZEFmMHcxOFQ3Z0NLckJSYVV0N21vUUdrVUtsMXhCZXRCcmQzMERzc3UrVUFVSwpWSmt5aXJSRDQ5RnMvdmFzTkhhbXdlSjRrVGxZUGhNSFZYTUpVcEtZQVFLQmdRRHRTem85L2ZOd2FseW1lTzBQClZqQzhDSTRiZXQ0U25KUk9GN2FxVkgxUTNNQW1GYUZPSmdOM3YwbUlJNkJjbkpxK3IvN2J5S1B3emFRQUdMdnYKS1dHSnZ3a01pTlUyNDRJVEtVVGh2WkxFTjUwQjhEVzJtSzEvTU96OWN5UUovQ29TUUt1dE1rdzNRR0s5NFdyYgozWlJZK2lIcEFkcGU0OVJQc2xRN2pDMjR1UUtCZ1FEaCtGNEg4Q1hjYmNxS2xMMEt4OGdjNzhsNkdsN1MxYUdICnUvZS9IRWFSYTYxU2NBNmNzbnVBK2dGZUk0VHh5Q0JmdkpPbjRVUFgxaWROOFdnc0NJL0d1enkzNVVNekJJeEYKZlUvblRLam1qY29sTmxCS01QR1lPZHdPbjNLVnE3YkdOYytjejBNNndSaDJtYTZnalJ2Z2FNaWNlQzVqaHlKRQpnMzhRdWNCZ2lRS0JnREN6QWE3N1VWeSsxMmpxNUd3RFdsa2N3RjF2WitnVjduSGdlQUtZK0djQ0J3Vko1eUxzCnRrVjdJcElvRFo4MEhLWUo1Sm9pb1ZLb1FZSXJrVlpSL2N5UlFrQXFUT2ZJNVVjZGJ4K05FblBtbmZocDNmd3QKZFYzbklwd1paMG9OVUcwU2pLa3M2MnRqY1dCYXhOMStxaFZnc0Zqcm9tOWEvcFdrbVpqbStmTXhBb0dCQUlidwpxalpUVWtpdng2TzU3cW5oWTc3ajhvelg4b2cweXFFanZtNkJsQ0tEQ3AyUURTbkY2N3E1a05lR25uMUQ1UkZHCnEyWTFQeTVFMUhQWEZUNDJYcVZ1YW5QbWxKcUN2TUZDYzlUTUVwQ2JXM3VkVTVUNlpVdGlRZWI1a0pPUVZ6VkcKTFJTWE1LNkZZUFp5RDdZUWpmVVVuYmZTak9FaWNYUTRra2lLcERjQkFvR0FSVmtPRnpLQTBTNzljcVpEWEZuSAoyVEJwRnZpWVo1K28yaXhucWJJTTUyb1U1Um84R0M4Vk9FYkkrRVhsSUJIK1A1Mm5PNmFCek5Fc2dJMnA4RjNWCnJuakYvR1Zodjk5c3QyTWpiaFduZXNqMVRab2tHaUhTbnRIUzdFZGdCc3ZMQm1mNlIxUjlZSGdRc0srZkdhK3YKMk03RFRFbWZtM0s0amdObnFBcmJqNlU9Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
+    "KEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRRHV1NEgxMi9WVkRBYVcKWVV2RGUvSE5OaGlPRXh0aFJFZEhBUStTcjQvSFZmbjJyTi9KTHlKMlp6M3Y2b3NaUlFWc01yeFNEamh6T0dDZQpPZHJ2RDBvKzJVMit4WXpwb056ejZTdkdQbEFzQ2sxeC9pdHBTMHQzSFRqN2JJUWFBT1BTR0pzNWZsNllxcGlkCmdDRWNBOFIyNTlkV2xOTmc0VmM0YTYrOWQ3a1lHaUxWaWtnT2lIZVB2NnNiTG9HSEwxUVpOMThid3ljSERGL0kKQ1RtVHBkTElmT0VSWHhZNFdTS1pFcUtIVkVwNVNaVWRmYjBqTUFsVVR3RlBuczUvRHlkdlhRN3E0WmRCVkdSMwpVU1ZvbWNuQ25nZ3kzMHR4aDJzYVR4Mm9YdWZ1V1A0WmJkTTBMUVdaSzNlNGU0QTNiUVBJZHJXT0wyTXVNaFBWCjBnb1JGTjVsQWdNQkFBRUNnZ0VCQU5kKzN1TWx1Q0ViQjk4NjJIOFBKTWZPcXYra2M3U3JRNFB1aXpZbno2dHEKQ29jR3FjTWJEd3ErU3dTRVBTZUVURTdNeFgxMFpMUnRFWm9DTTRSVDB2dEVnSTlTRjg3VWJGNm4vZUduWWdzLwpDWVY2bjRrZWRIS0RLR3FjRytxMUh2RUpVU1RtMDFFUHZVOSsxMlJJYWxIREdYaUlRdjVTcXI2OVJoZkxPSU50ClplZzlYVE5JZjNVVDNZSkhZQndnUGVMYkpEZnFvdEhpKzk3QU9zVWJFa3hTTnFpMHpncEUzMk1VL0lidmhqSmsKZ3RVaXRKYTk2WUs0UElCUUpZZytkbko0RFZ5YzNwRlBGZFJGVzFWMjc0L3FpbHdpK25BK2hJNTVBMjFmVGp0TwpsM2lvK0JkQ0pPTkNMV1ptSWJBVXZmd3J5TEg4b0wxVVQ2U1BZOTFQS0FrQ2dZRUEraWZ2SVEyWFZRQ2wwM1ZLClYrNUp3eEwxRGlCejc2Uy9sYWIvTVpSQ0x1SzhzbERZbjJZUGhvYlFxR1dTcHVYSHF6Rm8zMWd2c01TajMxWVUKcGh6SG5kc2NVZ1ZFOXFnek50ZVVJVC9KVWdrclVFTzNrbk9zZUprV2J5OW9aZGcyUlFBbndGa0RnUzYzMUcwNgpMMHJPK1dwd1NnM09KbnB3dTBGK3JQRkFzQzhDZ1lFQTlFOUJOSitld1drcmdSZEJxc29aQXJFUy9MK3FaREFFCk9GLzU4K1U1K29qVzN3bVhYMVBqbU42R3hGd29vRVU3QWlnNXcwL01Xd1EwMFFQM1JQT2d3K3JCWGJlaTkxZ20KcEtPR0pZZGJxcmI0NzQ0N3FTZ2ZBVXpZTUpIVE1JNUNzdmx3ZzNRMEs3Q0VLbWo0RkRPTTFhRTBYVXpLcEFHRApsTXV2bENZQkFhc0NnWUJEVGpWUHZsbG1QSHRoYnFCbkVpejBlSWhJbWNDM3pLcmplQUFYZGQxc3dnS2xNNDFsCkxjK2xrV1pZdUtPQmxqZG52eTZKVVMvYnJyeXNuWHVHeWgySFFtblhRNld2ZThmenpJTUZneVVHbG9MNTRJNW0Kc0FyS2s5M3VZbUlEYk80RkdLcVpYUm5OU3lXWTJSNmJsTlFsVlZjTEJiWGVzbmpjV1IzZEtEZ1Fid0tCZ0QxQgpZZWYvM1o1QThGZDlyVWxWUXRBWjlkakpkYitKQ29YWUNxUE1aYTBiZ2tTSjh4cER2bDBsN2tSdGx3SVlXYU5BCjByclYxemM2NXNOQmEwNHVoN0NYdThQenR6aXRNWU0yUFB4TDQvLzV3SkRQNk1XUStiVXB2MHJ1UlRWM2RlSEsKQ1J2c2x1Z2RhZ1g0Szd0azhYcmU0SEpFUHNyQVZtMklaSTJRdWMvaEFvR0JBUEFxQUozbHNWSXVEbXR2S0pHZQo4Vi9BOTZ0dDZ3c0NVVHVUUHN6U2R3b3NVd2ZrVmFZdGpFZG1jQWRKNnZmRE1FdVRKb0V1SG8rN0NwL015VjdnCjI5cWU4cFl4YWtIa2pYNkovN1kwTWVBd0pZNlRCYkg2aUJlNlJidkhmcHBBR3ZqNzVaWHQ0ZGY4djVkOEtwWkwKTHh2L2NsblpVNm9rRTNwUjl3dGh0L2hLCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
     "KEYPASSWORD": "",
     "LOCKOUT_PROTECTION_CLIENT_CERTIFICATE": true,
     "MAXCONNECTIONSPERCLIENT": 32,
@@ -436,17 +438,18 @@
     "REMOTESERVERS": {},
     "REMOTESERVERS_CERTIFICATES": [],
     "REQUIREAUTH": 0,
-    "REVALIDATION": true,
     "SAMESITE_ATTRIBUTE": 2,
-    "SELFSIGNEDROOTCA": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUQyakNDQXNLZ0F3SUJBZ0lKQUxHV3UzRWNMSjZwTUEwR0NTcUdTSWIzRFFFQkN3VUFNRWt4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4SFRBYkJnTlZCQU1NRkVSRgpVMHRVVDFBdE1GUk5VME5TVmw5eWIyOTBNQ0FYRFRJek1EVXdNakU1TkRjME5sb1lEekl3TmpFd09ETXdNVGswCk56UTJXakJKTVFzd0NRWURWUVFHRXdKRVJURWJNQmtHQTFVRUNnd1NWSGRwYmtOQlZDQklUVWtnVTJWeWRtVnkKTVIwd0d3WURWUVFEREJSRVJWTkxWRTlRTFRCVVRWTkRVbFpmY205dmREQ0NBU0l3RFFZSktvWklodmNOQVFFQgpCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFMKy84UjVnVW1kTjlEUWpiNEhaOTJTSTRDZFJCRFhCcnJodEkwaG4wRUpmClgrT0ZpMUtDRldweWhWMC90cGtMdHVTTi9ZY003TGxSOHdNT0RNRHArRkprRU5kb2tReVcvdTg3ZERFNzlROW0KMmNIR1hIVzFZRjNET3dGcXhURmlyWjVqTDJyZVkycUFHanAvUE9rZHRXdkRxNVh0ZVpVc3hCNDBORGVFRHdNcQplVG9jbTBqTU1KZU9vK2Nvd3BvMUU4M1QwV3F5WE1jdXRUZS84VXE3N2dndnVheE1JZ2NXNW5kMC9rZnpKL1diCkhxVnBDR011MXhMSk8xL211bUJNd25ZWUtWWFV2c0g5a0l1RmpRcXd0Wjk2T21tWWVCSnc2ZnVvVHljT3JFZzUKdlRqZ0tJNFZIMlRZbE5HMm8ybklSZmtWOGl6Sy92eGdkMFo5cSt4SW91MENBd0VBQWFPQndqQ0J2ekNCakFZRApWUjBSQklHRU1JR0JnZ2xzYjJOaGJHaHZjM1NIQkg4QUFBR0hFQUFBQUFBQUFBQUFBQUFBQUFBQUFBR0NEMFJGClUwdFVUMUF0TUZSTlUwTlNWb0lQUkVWVFMxUlBVQzB3VkUxVFExSldod1RBcUFBN2h4QXFBcU1VbzBXd0FPSEUKMk15K3RNQThoeEFxQXFNVW8wV3dBT1dTVW41MVBVc3VoeEQrZ0FBQUFBQUFBRUtTa0htWXlxa2xNQjBHQTFVZApEZ1FXQkJUQVllci8vcXVoT0ZMQWZjekk3TzFaZkFyZnV6QVBCZ05WSFJNQkFmOEVCVEFEQVFIL01BMEdDU3FHClNJYjNEUUVCQ3dVQUE0SUJBUUFNYWdPTG5xOTR1SU5Pb3JNNVFJSnhqZlhGb0tlVnAzSytHR2hLcXZYSUlTSWYKeGZ6eEpyNG5nVnNZM25rdmMzVEt4VzVLYndTMjE4R3UxU3hWaS9XYjNUZksrNDlOckkydmszWVZLdWw2QmovRwpJQnd6VWYvWWhTUmY5Ukk2VnRmbXl5L1hteGlPRzhqdk9lK1M4clZIR1F6QWkyV3Faa3l0RVdBcTVhcU9Fbkd4CnNrU3A2WWVTSWhXZ2hqQ2lNQUdZWkh6OThvMGFSemc1RWE2b2dHSkpTZi81bDVZRUZRcmU1LzNxYldYR2czZW0KTG0wcDdzYm1JWmJKZDZ6bDFyT1h0L0gyeWZ4K2xjQ3dyNXU4UnlXTWFtZUtCd2hkZjVjQnBaN0M5NkR2NDV0NQozYkhYRHdYbjZQeTMrY0lKaVVJOC8zeUFwcjRIS1lYS3QzaU5ubE9HCi0tLS0tRU5EIENFUlRJRklDQVRFLS0tLS0K",
-    "SELFSIGNEDROOTCAKEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2UUlCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktjd2dnU2pBZ0VBQW9JQkFRRFJkVlk1NDB2elg2dEUKQXhGOGxLS0owS0pKQ1R4MzJyeFYya3poc3dFd0tzdytib2VZckNCL24wUzJOTmZZa2RZcFRWUlFJdklEbTVNTApQdlFjejBOZ1Raazc1OHluZmVVMEZiUlMxR2dGNjRGNHU1MkdPa3BmYlpPSm1JZmJjSDkzZGVJeURCQ1g2Vy9ICnR5anUvRHpXVVppaCtVTnVIVnFHUys1NlpBbmFobWpON2F1MzRWeG43SHVlYWZYNWlMUXdyeUpQWUpxUGlsK2sKOXFoR0RLT1RxRUpTMU45MHZjbXVoM2RnK3dqbGtJaWZjTWlYZUIydUx5RWtQZVBsV2JsMU81eU1XbGRNYlc0SwpTWkxyQ2RpTE5YS25od3NyTWFqWDV0WGhxYTdQTUdtZ3VZUVNyR3JVdzVGVzJLcFFZUTFRVnN1TWhiWDFhOWNsCjU4ZGxmVHNCQWdNQkFBRUNnZ0VBTExGODFKMUxkNExTYUpDL0NuWXN1SHRzSldsekhaL3V6K0xreE1RTlhObkUKK3cxYW9aa1kxaUtGNXRzZnMzWnEzQ1ZEK0ZWOGpvaUR0OEtYRkE2bHNjYmRDNHRLZi9LOUZZQU1HaUI0a2NyTwp0WlJTNkhGSHJWVVVSaWZsMVUwTDVkR2hra3hBdmlseFVJd2tqOW9Db1RpSCtRZlcrNGdINk9BSzR0SzF4NHJECnVHREFkMjNZNURTVTFJNGJ1NTNXaVE4bFdCS0djdHUzREpEOTEwVE8rZDV4Y1BTUnZVVXFFU243VENmdXc4N0YKK2xTeklIM0xwNHZsWDR4ZzV1ZEFmMHcxOFQ3Z0NLckJSYVV0N21vUUdrVUtsMXhCZXRCcmQzMERzc3UrVUFVSwpWSmt5aXJSRDQ5RnMvdmFzTkhhbXdlSjRrVGxZUGhNSFZYTUpVcEtZQVFLQmdRRHRTem85L2ZOd2FseW1lTzBQClZqQzhDSTRiZXQ0U25KUk9GN2FxVkgxUTNNQW1GYUZPSmdOM3YwbUlJNkJjbkpxK3IvN2J5S1B3emFRQUdMdnYKS1dHSnZ3a01pTlUyNDRJVEtVVGh2WkxFTjUwQjhEVzJtSzEvTU96OWN5UUovQ29TUUt1dE1rdzNRR0s5NFdyYgozWlJZK2lIcEFkcGU0OVJQc2xRN2pDMjR1UUtCZ1FEaCtGNEg4Q1hjYmNxS2xMMEt4OGdjNzhsNkdsN1MxYUdICnUvZS9IRWFSYTYxU2NBNmNzbnVBK2dGZUk0VHh5Q0JmdkpPbjRVUFgxaWROOFdnc0NJL0d1enkzNVVNekJJeEYKZlUvblRLam1qY29sTmxCS01QR1lPZHdPbjNLVnE3YkdOYytjejBNNndSaDJtYTZnalJ2Z2FNaWNlQzVqaHlKRQpnMzhRdWNCZ2lRS0JnREN6QWE3N1VWeSsxMmpxNUd3RFdsa2N3RjF2WitnVjduSGdlQUtZK0djQ0J3Vko1eUxzCnRrVjdJcElvRFo4MEhLWUo1Sm9pb1ZLb1FZSXJrVlpSL2N5UlFrQXFUT2ZJNVVjZGJ4K05FblBtbmZocDNmd3QKZFYzbklwd1paMG9OVUcwU2pLa3M2MnRqY1dCYXhOMStxaFZnc0Zqcm9tOWEvcFdrbVpqbStmTXhBb0dCQUlidwpxalpUVWtpdng2TzU3cW5oWTc3ajhvelg4b2cweXFFanZtNkJsQ0tEQ3AyUURTbkY2N3E1a05lR25uMUQ1UkZHCnEyWTFQeTVFMUhQWEZUNDJYcVZ1YW5QbWxKcUN2TUZDYzlUTUVwQ2JXM3VkVTVUNlpVdGlRZWI1a0pPUVZ6VkcKTFJTWE1LNkZZUFp5RDdZUWpmVVVuYmZTak9FaWNYUTRra2lLcERjQkFvR0FSVmtPRnpLQTBTNzljcVpEWEZuSAoyVEJwRnZpWVo1K28yaXhucWJJTTUyb1U1Um84R0M4Vk9FYkkrRVhsSUJIK1A1Mm5PNmFCek5Fc2dJMnA4RjNWCnJuakYvR1Zodjk5c3QyTWpiaFduZXNqMVRab2tHaUhTbnRIUzdFZGdCc3ZMQm1mNlIxUjlZSGdRc0srZkdhK3YKMk03RFRFbWZtM0s0amdObnFBcmJqNlU9Ci0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
+    "SELFSIGNEDROOTCA": "LS0tLS1CRUdJTiBDRVJUSUZJQ0FURS0tLS0tCk1JSUR5ekNDQXJPZ0F3SUJBZ0lKQUlKSDNncjJCcUg4TUEwR0NTcUdTSWIzRFFFQkN3VUFNRWt4Q3pBSkJnTlYKQkFZVEFrUkZNUnN3R1FZRFZRUUtEQkpVZDJsdVEwRlVJRWhOU1NCVFpYSjJaWEl4SFRBYkJnTlZCQU1NRkVSRgpVMHRVVDFBdFFUWTBSVXM1TTE5eWIyOTBNQ0FYRFRJek1EVXhOREU0TkRZek9Wb1lEekl3TmpFd09URXhNVGcwCk5qTTVXakJKTVFzd0NRWURWUVFHRXdKRVJURWJNQmtHQTFVRUNnd1NWSGRwYmtOQlZDQklUVWtnVTJWeWRtVnkKTVIwd0d3WURWUVFEREJSRVJWTkxWRTlRTFVFMk5FVkxPVE5mY205dmREQ0NBU0l3RFFZSktvWklodmNOQVFFQgpCUUFEZ2dFUEFEQ0NBUW9DZ2dFQkFLbExqZDlPS0piZGlSa3RhcW5Ya3NPS0hlaFduUnM4U1kwcU8xZFJxSXhHCkpIajZRVlFxQVdsejZ6Wm5wRHFvV3Rmb3h0UmlrSGtmQUZhVTE5YkhqY2p2OXN4TFFuTDgzS1kxUzlYak1RRFMKT2V4VC9zWWFCcWlRTVcxYUxWLzVQdHUybE1sdk9RUlZXSWU3c2NGcS9YUldqYm5zUnFHU01tYkxGOWF2VFNRQQpyWnc2WFhQeXV2NjJETjlRNmw5ZndWY3FUVVM1dUdFaHRFeU9VdVpSOCtvT3ZmMGY1aFpqL1d1WmN1OWZkSis4CllGR09pSUNTQUY5K3pkSndKYWgrRWJJb2dhMEM0Rm1uQUlrUTJrSXVRKzg5dEZYTE9WWTZJOWtVZ0Q4K2RCZkcKRmQzZnYvY2lVNVJUMmNjblU3MzNlZEJ4VStZc3JPb29GVGs0VHE3R0dvVUNBd0VBQWFPQnN6Q0JzREIrQmdOVgpIUkVFZHpCMWdnbHNiMk5oYkdodmMzU0hCSDhBQUFHSEVBQUFBQUFBQUFBQUFBQUFBQUFBQUFHQ0QwUkZVMHRVClQxQXRRVFkwUlVzNU00SVBSRVZUUzFSUFVDMUJOalJGU3premh3VEFxQUgwaHdUQXFEZ0JoeEQrZ0FBQUFBQUEKQUJpaEVlOVpWWitPaHhEK2dBQUFBQUFBQU43Y3d0UFBKSlFFTUIwR0ExVWREZ1FXQkJSOUpXVHdPdS9aa0g3UgpnOWprdVpHTDVOdFFSREFQQmdOVkhSTUJBZjhFQlRBREFRSC9NQTBHQ1NxR1NJYjNEUUVCQ3dVQUE0SUJBUUNZClE3YzVHSjFpbStlOFBoekVPM1dHaCtmc29ndHZJbmdlU00rSzNWaDhlQnM4L0dJRVQ0cU5nb1Ribkh2U1B5eXYKLy9YMlI0THpJSDhmck1IQUw4SXZ5eXkxbFU5ZFF3R0ZWNmI5RUk0SzlRVCsyTDAwcDVHaHRiSkVlRXFQaVZGdQo3WkVnNkpRbDNFVitHRnZYRU9ZVUNTZSt6aW9Kd1E4T09WWERkQ2NNaW92NVNLL3lYTmgvMU5vbEFQTmhIaGV4CkJNSVZ4ck9jMWx1M3JibWhjZy91VjU2UCsxNDlMMHVjZlQ5aW12REFCUVQyUnV5V1JObXF5bTN4U3J4cWY1NjkKSDcySkEwWWQrUE1NZCsxTERNcFBiK3kxdHlxU3d2WVhoeHdoMmU4bnVHc3FTaEw4bmp5ME1xT1dmUmg1MzNDSwpRZFRQOHVtYmczdEZhNXVnbUtwVwotLS0tLUVORCBDRVJUSUZJQ0FURS0tLS0tCg==",
+    "SELFSIGNEDROOTCAKEY": "LS0tLS1CRUdJTiBQUklWQVRFIEtFWS0tLS0tCk1JSUV2Z0lCQURBTkJna3Foa2lHOXcwQkFRRUZBQVNDQktnd2dnU2tBZ0VBQW9JQkFRRHV1NEgxMi9WVkRBYVcKWVV2RGUvSE5OaGlPRXh0aFJFZEhBUStTcjQvSFZmbjJyTi9KTHlKMlp6M3Y2b3NaUlFWc01yeFNEamh6T0dDZQpPZHJ2RDBvKzJVMit4WXpwb056ejZTdkdQbEFzQ2sxeC9pdHBTMHQzSFRqN2JJUWFBT1BTR0pzNWZsNllxcGlkCmdDRWNBOFIyNTlkV2xOTmc0VmM0YTYrOWQ3a1lHaUxWaWtnT2lIZVB2NnNiTG9HSEwxUVpOMThid3ljSERGL0kKQ1RtVHBkTElmT0VSWHhZNFdTS1pFcUtIVkVwNVNaVWRmYjBqTUFsVVR3RlBuczUvRHlkdlhRN3E0WmRCVkdSMwpVU1ZvbWNuQ25nZ3kzMHR4aDJzYVR4Mm9YdWZ1V1A0WmJkTTBMUVdaSzNlNGU0QTNiUVBJZHJXT0wyTXVNaFBWCjBnb1JGTjVsQWdNQkFBRUNnZ0VCQU5kKzN1TWx1Q0ViQjk4NjJIOFBKTWZPcXYra2M3U3JRNFB1aXpZbno2dHEKQ29jR3FjTWJEd3ErU3dTRVBTZUVURTdNeFgxMFpMUnRFWm9DTTRSVDB2dEVnSTlTRjg3VWJGNm4vZUduWWdzLwpDWVY2bjRrZWRIS0RLR3FjRytxMUh2RUpVU1RtMDFFUHZVOSsxMlJJYWxIREdYaUlRdjVTcXI2OVJoZkxPSU50ClplZzlYVE5JZjNVVDNZSkhZQndnUGVMYkpEZnFvdEhpKzk3QU9zVWJFa3hTTnFpMHpncEUzMk1VL0lidmhqSmsKZ3RVaXRKYTk2WUs0UElCUUpZZytkbko0RFZ5YzNwRlBGZFJGVzFWMjc0L3FpbHdpK25BK2hJNTVBMjFmVGp0TwpsM2lvK0JkQ0pPTkNMV1ptSWJBVXZmd3J5TEg4b0wxVVQ2U1BZOTFQS0FrQ2dZRUEraWZ2SVEyWFZRQ2wwM1ZLClYrNUp3eEwxRGlCejc2Uy9sYWIvTVpSQ0x1SzhzbERZbjJZUGhvYlFxR1dTcHVYSHF6Rm8zMWd2c01TajMxWVUKcGh6SG5kc2NVZ1ZFOXFnek50ZVVJVC9KVWdrclVFTzNrbk9zZUprV2J5OW9aZGcyUlFBbndGa0RnUzYzMUcwNgpMMHJPK1dwd1NnM09KbnB3dTBGK3JQRkFzQzhDZ1lFQTlFOUJOSitld1drcmdSZEJxc29aQXJFUy9MK3FaREFFCk9GLzU4K1U1K29qVzN3bVhYMVBqbU42R3hGd29vRVU3QWlnNXcwL01Xd1EwMFFQM1JQT2d3K3JCWGJlaTkxZ20KcEtPR0pZZGJxcmI0NzQ0N3FTZ2ZBVXpZTUpIVE1JNUNzdmx3ZzNRMEs3Q0VLbWo0RkRPTTFhRTBYVXpLcEFHRApsTXV2bENZQkFhc0NnWUJEVGpWUHZsbG1QSHRoYnFCbkVpejBlSWhJbWNDM3pLcmplQUFYZGQxc3dnS2xNNDFsCkxjK2xrV1pZdUtPQmxqZG52eTZKVVMvYnJyeXNuWHVHeWgySFFtblhRNld2ZThmenpJTUZneVVHbG9MNTRJNW0Kc0FyS2s5M3VZbUlEYk80RkdLcVpYUm5OU3lXWTJSNmJsTlFsVlZjTEJiWGVzbmpjV1IzZEtEZ1Fid0tCZ0QxQgpZZWYvM1o1QThGZDlyVWxWUXRBWjlkakpkYitKQ29YWUNxUE1aYTBiZ2tTSjh4cER2bDBsN2tSdGx3SVlXYU5BCjByclYxemM2NXNOQmEwNHVoN0NYdThQenR6aXRNWU0yUFB4TDQvLzV3SkRQNk1XUStiVXB2MHJ1UlRWM2RlSEsKQ1J2c2x1Z2RhZ1g0Szd0azhYcmU0SEpFUHNyQVZtMklaSTJRdWMvaEFvR0JBUEFxQUozbHNWSXVEbXR2S0pHZQo4Vi9BOTZ0dDZ3c0NVVHVUUHN6U2R3b3NVd2ZrVmFZdGpFZG1jQWRKNnZmRE1FdVRKb0V1SG8rN0NwL015VjdnCjI5cWU4cFl4YWtIa2pYNkovN1kwTWVBd0pZNlRCYkg2aUJlNlJidkhmcHBBR3ZqNzVaWHQ0ZGY4djVkOEtwWkwKTHh2L2NsblpVNm9rRTNwUjl3dGh0L2hLCi0tLS0tRU5EIFBSSVZBVEUgS0VZLS0tLS0K",
     "SESSIONSTORAGE": {},
     "SHOW_CONFIGURATION_HINTS": true,
+    "SHOW_MAINTENANCE_MODE": true,
     "SHUTDOWNTIMEOUT": "PT10S",
     "SOCKET_TIMEOUT": "PT10S",
     "SYMBOLS": {
         "ADS.AdsSyncReadDeviceInfoReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -459,10 +462,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.AdsSyncReadReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -493,10 +498,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.AdsSyncReadStateReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -545,10 +552,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.AdsSyncReadWriteReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -585,10 +594,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.AdsSyncWriteControlReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -621,10 +632,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.AdsSyncWriteReq": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -657,10 +670,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.CheckLicense": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -685,20 +700,24 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.Config": {
             "ACCESS": 0,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Config",
             "OPTIONS": {},
             "SCHEMA": {},
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.Diagnostics": {
             "ACCESS": 1,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -738,6 +757,13 @@
                                     "readOnly": true,
                                     "type": "string"
                                 },
+                                "adsVersionBuild": {
+                                    "hidden": true,
+                                    "minimum": 0.0,
+                                    "propertyOrder": 9,
+                                    "readOnly": true,
+                                    "type": "integer"
+                                },
                                 "connectionState": {
                                     "propertyOrder": 1,
                                     "readOnly": true,
@@ -750,7 +776,7 @@
                                 },
                                 "isUserModeRuntime": {
                                     "hidden": true,
-                                    "propertyOrder": 9,
+                                    "propertyOrder": 10,
                                     "readOnly": true,
                                     "type": "boolean"
                                 },
@@ -774,13 +800,14 @@
                     }
                 },
                 "readOnly": true,
-                "transient": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.GetDefinitions": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -789,10 +816,12 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.GetSchema": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -804,10 +833,25 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "ADS.GetSystemId": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "GetSystemId",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "type": "string"
+            },
             "USEMAPPING": true
         },
         "ADS.ListCommonTypes": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -832,10 +876,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.ListRoutes": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -865,10 +911,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.ListSymbols": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -877,10 +925,12 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ADS.RuntimePorts": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -912,6 +962,7 @@
                         {
                             "properties": {
                                 "NETID": {
+                                    "format": "amsnetid",
                                     "type": "string"
                                 },
                                 "all": {
@@ -927,10 +978,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "AddOrChangeUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1013,10 +1066,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "AddSymbol": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1087,10 +1142,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "AddSymbols": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1141,10 +1198,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "AddToConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1175,10 +1234,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ChangeUserSettings": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1190,7 +1251,7 @@
                     "anyOf": [
                         {
                             "additionalProperties": false,
-                            "description": "Changes to the USERGROUPUSERS entry of the current user",
+                            "description": "Changes to the USERGROUPUSERS entry of the current user.",
                             "properties": {
                                 "changePassword": {
                                     "allOf": [
@@ -1227,10 +1288,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ConfirmAlarm": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1242,10 +1305,12 @@
                     "$ref": "tchmi:server#/definitions/alarm"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Copy": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1280,10 +1345,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "CreateEvent": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1295,6 +1362,7 @@
                     "$ref": "tchmi:server#/definitions/event"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "DefaultAuthExtension": {
@@ -1329,6 +1397,7 @@
         },
         "Delete": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1353,10 +1422,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "DeleteConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1368,10 +1439,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Diagnostics": {
             "ACCESS": 1,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1383,29 +1456,24 @@
                 "properties": {
                     "ACCEPTEDSOCKETS": {
                         "readOnly": true,
-                        "transient": true,
                         "type": "integer"
                     },
                     "ACTIVESESSIONS": {
                         "link": "Sessions",
                         "readOnly": true,
-                        "transient": true,
                         "type": "integer"
                     },
                     "ACTIVESOCKETS": {
                         "readOnly": true,
-                        "transient": true,
                         "type": "integer"
                     },
                     "ARCHITECTURE": {
                         "readOnly": true,
-                        "transient": true,
                         "type": "string"
                     },
                     "DISCOVERY_RUNNING": {
                         "hidden": true,
                         "readOnly": true,
-                        "transient": true,
                         "type": "boolean"
                     },
                     "DOTNETCLASSICVERSIONS": {
@@ -1414,7 +1482,6 @@
                             "type": "string"
                         },
                         "readOnly": true,
-                        "transient": true,
                         "type": "array"
                     },
                     "DOTNETCOREVERSIONS": {
@@ -1423,7 +1490,6 @@
                             "type": "string"
                         },
                         "readOnly": true,
-                        "transient": true,
                         "type": "array"
                     },
                     "DOTNETVERSIONS": {
@@ -1432,7 +1498,6 @@
                             "type": "string"
                         },
                         "readOnly": true,
-                        "transient": true,
                         "type": "array"
                     },
                     "LICENSE": {
@@ -1440,19 +1505,16 @@
                             "CLIENTS": {
                                 "propertyOrder": 2,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "integer"
                             },
                             "EXTENSIONS": {
                                 "propertyOrder": 6,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "boolean"
                             },
                             "SERVERS": {
                                 "propertyOrder": 1,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "integer"
                             },
                             "STATE": {
@@ -1472,30 +1534,25 @@
                             "TARGETS": {
                                 "propertyOrder": 4,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "integer"
                             },
                             "USEDCLIENTS": {
                                 "propertyOrder": 3,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "integer"
                             },
                             "USEDTARGETS": {
                                 "propertyOrder": 5,
                                 "readOnly": true,
-                                "transient": true,
                                 "type": "integer"
                             }
                         },
                         "readOnly": true,
-                        "transient": true,
                         "type": "object"
                     },
                     "MEMORYUSAGE": {
                         "displayClass": "megabyte",
                         "readOnly": true,
-                        "transient": true,
                         "type": "number"
                     },
                     "REMOTESERVERS": {
@@ -1520,7 +1577,6 @@
                                     ],
                                     "propertyOrder": 1,
                                     "readOnly": true,
-                                    "transient": true,
                                     "type": "string"
                                 }
                             },
@@ -1530,42 +1586,69 @@
                             "type": "object"
                         },
                         "readOnly": true,
-                        "transient": true,
                         "type": "object"
                     },
                     "SERVERTIME": {
                         "format": "date-time",
                         "readOnly": true,
-                        "transient": true,
                         "type": "string"
                     },
                     "TRAFFICIN": {
                         "displayClass": "byte",
                         "readOnly": true,
-                        "transient": true,
                         "type": "number"
                     },
                     "TRAFFICOUT": {
                         "displayClass": "byte",
                         "readOnly": true,
-                        "transient": true,
                         "type": "number"
                     },
                     "UPTIME": {
                         "format": "timespan",
                         "readOnly": true,
-                        "transient": true,
                         "type": "string"
                     }
                 },
                 "readOnly": true,
-                "transient": true,
                 "type": "object"
+            },
+            "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "Export": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiSrv",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "Export",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "function": true,
+                "writeValue": {
+                    "properties": {
+                        "domain": {
+                            "type": "string"
+                        },
+                        "full": {
+                            "default": false,
+                            "type": "boolean"
+                        },
+                        "name": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "name",
+                        "domain"
+                    ],
+                    "type": "object"
+                }
             },
             "USEMAPPING": true
         },
         "ForceLogout": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1606,10 +1689,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "GetConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1637,10 +1722,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "GetCurrentUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1698,10 +1785,12 @@
                 },
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "GetDefinitions": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1734,10 +1823,41 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "GetFileInformation": {
+            "ACCESS": 3,
+            "DOMAIN": "TcHmiSrv",
+            "DYNAMIC": false,
+            "HIDDEN": true,
+            "MAPPING": "GetFileInformation",
+            "OPTIONS": {},
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "function": true
+                    },
+                    {
+                        "$ref": "tchmi:server#/definitions/fileInfo"
+                    },
+                    {
+                        "required": [
+                            "modificationTime",
+                            "fileSize",
+                            "access"
+                        ]
+                    }
+                ],
+                "writeValue": {
+                    "type": "string"
+                }
+            },
             "USEMAPPING": true
         },
         "GetSchema": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1776,10 +1896,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "GetServerInformation": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1789,10 +1911,12 @@
                 "function": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "GetSymbolAccess": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1811,10 +1935,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Heartbeat": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1823,10 +1949,12 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Import": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1838,10 +1966,12 @@
                     "$ref": "tchmi:general#/definitions/Any"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "IsAuthRequired": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1851,10 +1981,12 @@
                 "function": true,
                 "type": "boolean"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListActiveSessions": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1906,6 +2038,10 @@
                     "subscriptions": {
                         "additionalProperties": {
                             "properties": {
+                                "averageDuration": {
+                                    "format": "timespan",
+                                    "type": "string"
+                                },
                                 "clientCount": {
                                     "type": "integer"
                                 },
@@ -1915,6 +2051,11 @@
                                             "lastSent": {
                                                 "format": "date-time",
                                                 "type": "string"
+                                            },
+                                            "readValueJsonLength": {
+                                                "displayClass": "byte",
+                                                "minimum": 0.0,
+                                                "type": "integer"
                                             },
                                             "symbol": {
                                                 "type": "string"
@@ -1931,6 +2072,11 @@
                                     "type": "integer"
                                 },
                                 "intervalTime": {
+                                    "type": "integer"
+                                },
+                                "readValueJsonLength": {
+                                    "displayClass": "byte",
+                                    "minimum": 0.0,
                                     "type": "integer"
                                 },
                                 "type": {
@@ -1952,12 +2098,34 @@
                         "type": "object"
                     }
                 },
-                "type": "object"
+                "type": "object",
+                "writeValue": {
+                    "anyOf": [
+                        {
+                            "properties": {
+                                "averageDuration": {
+                                    "default": false,
+                                    "type": "boolean"
+                                },
+                                "readValueJsonLength": {
+                                    "default": false,
+                                    "type": "boolean"
+                                }
+                            },
+                            "type": "object"
+                        },
+                        {
+                            "$ref": "tchmi:general#/definitions/VOID"
+                        }
+                    ]
+                }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListConfigurations": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -1970,10 +2138,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListDomains": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2062,10 +2232,12 @@
                 "function": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListEvents": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2148,10 +2320,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListFiles": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2159,34 +2333,21 @@
             "OPTIONS": {},
             "SCHEMA": {
                 "additionalProperties": {
-                    "properties": {
-                        "fileFlags": {
-                            "items": {
-                                "enum": [
-                                    "Directory",
-                                    "ReadOnly",
-                                    "UserAccessReadOnly",
-                                    "VirtualDirectory"
-                                ],
-                                "type": "string"
+                    "allOf": [
+                        {
+                            "$ref": "tchmi:server#/definitions/fileInfo"
+                        },
+                        {
+                            "properties": {
+                                "link": {
+                                    "type": "string"
+                                }
                             },
-                            "type": "array"
-                        },
-                        "fileSize": {
-                            "displayClass": "kilobyte",
-                            "type": "number"
-                        },
-                        "link": {
-                            "type": "string"
-                        },
-                        "modificationTime": {
-                            "type": "string"
+                            "required": [
+                                "fileFlags"
+                            ]
                         }
-                    },
-                    "required": [
-                        "fileFlags"
-                    ],
-                    "type": "object"
+                    ]
                 },
                 "function": true,
                 "type": "object",
@@ -2201,10 +2362,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListInternalSymbols": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2214,10 +2377,12 @@
                 "function": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListSymbolNames": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2246,10 +2411,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListSymbols": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2262,10 +2429,12 @@
                 "function": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListUserNames": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2279,10 +2448,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "ListUsers": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2310,10 +2481,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "LocalizeText": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2354,10 +2527,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Login": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2369,6 +2544,10 @@
                 "type": "string",
                 "writeValue": {
                     "properties": {
+                        "maintenanceMode": {
+                            "default": false,
+                            "type": "boolean"
+                        },
                         "password": {
                             "format": "encrypted",
                             "type": "string"
@@ -2384,10 +2563,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Logout": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2396,320 +2577,446 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.0": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[0]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.1": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[1]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.10": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[10]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.11": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[11]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.12": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[12]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.13": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[13]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.14": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[14]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.15": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[15]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.16": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[16]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.17": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[17]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.18": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[18]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.19": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[19]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.2": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[2]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.20": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[20]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.21": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[21]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.22": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[22]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.23": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[23]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.3": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[3]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.4": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[4]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.5": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[5]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.6": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[6]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.7": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[7]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.8": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[8]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.aRoadFlags.9": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::aRoadFlags[9]",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.nWeightAH": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::nWeightAH",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.nWeightBC": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::nWeightBC",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.nWeightDE": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::nWeightDE",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.nWeightFG": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::GLOBALS::nWeightFG",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.MAIN.bShouldCalculate": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::MAIN::bShouldCalculate",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/BOOL"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.MAIN.nEndPosition": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::MAIN::nEndPosition",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "PLC1.MAIN.nStartPosition": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "ADS",
             "DYNAMIC": true,
+            "HIDDEN": false,
             "MAPPING": "PLC1::MAIN::nStartPosition",
+            "OPTIONS": {},
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/INT"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "RefreshDefinitions": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2726,10 +3033,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Remove": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2762,10 +3071,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "RemoveFromConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2796,10 +3107,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "RemoveUnusedDefinitions": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2838,10 +3151,12 @@
                     ]
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "RemoveUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2867,10 +3182,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Rename": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2905,10 +3222,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "RenameConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2932,10 +3251,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Restart": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2944,10 +3265,12 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "SetConfiguration": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2977,10 +3300,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "SetLocale": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -2993,10 +3318,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Shutdown": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3005,10 +3332,12 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "SubscribeEvents": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3021,42 +3350,68 @@
                     "type": "integer"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiLua.Config": {
             "ACCESS": 0,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiLua",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Config",
             "OPTIONS": {},
             "SCHEMA": {},
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiSqliteLogger.Clear": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSqliteLogger",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Clear",
             "OPTIONS": {},
             "SCHEMA": {
-                "function": true
+                "function": true,
+                "writeValue": {
+                    "anyOf": [
+                        {
+                            "properties": {
+                                "match": {
+                                    "$ref": "tchmi:server#/definitions/filter"
+                                }
+                            },
+                            "required": [
+                                "match"
+                            ],
+                            "type": "object"
+                        },
+                        {
+                            "$ref": "tchmi:general#/definitions/VOID"
+                        }
+                    ]
+                }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiSqliteLogger.Config": {
             "ACCESS": 0,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSqliteLogger",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Config",
             "OPTIONS": {},
             "SCHEMA": {},
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiSqliteLogger.Diagnostics": {
             "ACCESS": 1,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSqliteLogger",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3194,13 +3549,14 @@
                     "allDomains",
                     "perDomain"
                 ],
-                "transient": true,
                 "type": "object"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiSqliteLogger.ListEvents": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSqliteLogger",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3209,20 +3565,24 @@
             "SCHEMA": {
                 "function": true
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiSrv.Config": {
             "ACCESS": 0,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Config",
             "OPTIONS": {},
             "SCHEMA": {},
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.AddUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3238,6 +3598,7 @@
                         },
                         "password": {
                             "description": "Password of the user. Only a hash will be stored.",
+                            "format": "encrypted",
                             "type": "string"
                         },
                         "userName": {
@@ -3252,10 +3613,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.ChangePassword": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3277,20 +3640,24 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.Config": {
             "ACCESS": 0,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
             "MAPPING": "Config",
             "OPTIONS": {},
             "SCHEMA": {},
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.DisableUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3303,10 +3670,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.EnableUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3319,10 +3688,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.ListDisabledUsers": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3335,10 +3706,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.ListUsers": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3351,10 +3724,12 @@
                 },
                 "type": "array"
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.RemoveUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3367,10 +3742,12 @@
                     "type": "string"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "TcHmiUserManagement.RenameUser": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiUserManagement",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3396,10 +3773,12 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Unsubscribe": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3412,10 +3791,12 @@
                     "type": "integer"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "UnsubscribeEvents": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3428,10 +3809,12 @@
                     "type": "integer"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "UpdateEventsSubscription": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3444,10 +3827,12 @@
                     "type": "integer"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "Upload": {
             "ACCESS": 3,
+            "CUSTOMERDATA": "",
             "DOMAIN": "TcHmiSrv",
             "DYNAMIC": false,
             "HIDDEN": true,
@@ -3496,6 +3881,7 @@
                     "type": "object"
                 }
             },
+            "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
         "UserSelectType": {
@@ -3517,6 +3903,7 @@
     "TEMPDH": "",
     "THREADPOOLSIZE": 32,
     "UPLOADTIMEOUT": "PT20S",
+    "USEINT64STRING": false,
     "USERGROUPS": {
         "__SystemAdministrators": {
             "ENABLED": true,
@@ -3549,6 +3936,13 @@
                 "UserSelectType": 1
             }
         },
+        "__SystemMaintenanceUsers": {
+            "ENABLED": true,
+            "FILEACCESS": 3,
+            "FILES": {},
+            "SYMBOLACCESS": 0,
+            "SYMBOLS": {}
+        },
         "__SystemUsers": {
             "ENABLED": true,
             "FILEACCESS": 3,
@@ -3570,7 +3964,9 @@
                 "GetConfiguration": 3,
                 "GetCurrentUser": 3,
                 "GetDefinitions": 3,
+                "GetFileInformation": 3,
                 "GetSchema": 3,
+                "GetServerInformation": 3,
                 "GetSymbolAccess": 3,
                 "Heartbeat": 3,
                 "IsAuthRequired": 3,
@@ -3618,7 +4014,8 @@
                 "TcHmiUserManagement.ChangePassword": 3,
                 "Unsubscribe": 3,
                 "UnsubscribeEvents": 3,
-                "UpdateEventsSubscription": 3
+                "UpdateEventsSubscription": 3,
+                "UserSelectType": 1
             }
         }
     },
@@ -3641,6 +4038,15 @@
                 "USERGROUPUSERS_LOCALE": "project",
                 "USERGROUPUSERS_TIMEFORMATLOCALE": "project",
                 "USERGROUPUSERS_TIMEZONE": "project"
+            },
+            "__SystemUser": {
+                "USERGROUPUSERS_AUTO_LOGOFF": "PT0S",
+                "USERGROUPUSERS_GROUPS": [
+                    "__SystemUsers"
+                ],
+                "USERGROUPUSERS_LOCALE": "project",
+                "USERGROUPUSERS_TIMEFORMATLOCALE": "project",
+                "USERGROUPUSERS_TIMEZONE": "project"
             }
         }
     },
@@ -3648,10 +4054,10 @@
     "VIDEOSEGMENTSIZE": 1048576,
     "VIRTUALDIRECTORIES": {
         "/": "..\\..\\TcHmiProject\\",
-        "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.758.8\\runtimes\\native1.12-tchmi",
-        "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.758.8\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Controls": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Controls.12.760.37\\runtimes\\native1.12-tchmi",
+        "/Beckhoff.TwinCAT.HMI.Functions": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Functions.12.760.37\\runtimes\\native1.12-tchmi",
         "/bin": "..\\..\\TcHmiProject\\bin\\",
         "/bin/framework": "..\\..\\TcHmiProject\\bin\\framework",
-        "/framework": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.758.8\\runtimes\\native1.12-tchmi"
+        "/framework": "..\\..\\TrafficDigitalTwin\\Packages\\Beckhoff.TwinCAT.HMI.Framework.12.760.37\\runtimes\\native1.12-tchmi"
     }
 }
