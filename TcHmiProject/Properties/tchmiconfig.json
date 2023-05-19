@@ -1,5 +1,5 @@
-﻿{
-  "$schema": "./../../TrafficDigitalTwin/Packages/Beckhoff.TwinCAT.HMI.Framework.12.758.8/runtimes/native1.12-tchmi/Schema/TchmiConfig.Schema.json",
+{
+  "$schema": "./../../TrafficDigitalTwin/Packages/Beckhoff.TwinCAT.HMI.Framework.12.760.37/runtimes/native1.12-tchmi/Schema/TchmiConfig.Schema.json",
   "basePath": "./framework",
   "scaleMode": "None",
   "startupView": "Desktop.view",
@@ -25,7 +25,8 @@
           "type": "ThemedValues"
         }
       ],
-      "replacesThemeForControls": []
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
     },
     "Base": {
       "resources": [
@@ -40,7 +41,8 @@
           "type": "Stylesheet"
         }
       ],
-      "replacesThemeForControls": []
+      "replacesThemeForControls": [],
+      "replacesThemeForPackageComponents": []
     }
   },
   "dependencyFiles": [
@@ -51,7 +53,22 @@
     }
   ],
   "userControls": [],
-  "content": [],
+  "content": [
+    {
+      "url": "Contents/RoadView.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    },
+    {
+      "url": "Contents/TableView.content",
+      "preload": false,
+      "keepAlive": false,
+      "loadSync": false,
+      "preloadBindings": false
+    }
+  ],
   "views": [
     {
       "url": "Desktop.view",
@@ -103,5 +120,23 @@
     {
       "url": "KeyboardLayouts/US - compact.keyboard.json"
     }
-  ]
+  ],
+  "systemKeyboard": {
+    "providerName": "",
+    "projectKeyboardMapping": {
+      "de": {
+        "text": "",
+        "decimal": "",
+        "numeric": ""
+      },
+      "en": {
+        "text": "",
+        "decimal": "",
+        "numeric": ""
+      }
+    }
+  },
+  "systemPopups": {
+    "providerName": "Beckhoff.TcHmiPopups"
+  }
 }

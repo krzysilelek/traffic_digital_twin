@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" DefaultTargets="Clean;Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.props')" />
   <Import Project="..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.props" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -29,10 +30,12 @@
     <HmiCommunicationRouterPort>10100</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.758.8</HmiInitial>
-    <HmiRecent>1.12.758.8</HmiRecent>
+    <HmiRecent>1.12.760.37</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
     <HmiViewportHeight>800</HmiViewportHeight>
     <HmiViewportWidth>1024</HmiViewportWidth>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup>
     <TwinCATHmi_Tasks>$(TcHmiDirectory)\MSBuild\Beckhoff.TwinCAT.HMI.tasks</TwinCATHmi_Tasks>
@@ -119,6 +122,7 @@
     <Folder Include="Imports\Videos" />
     <Folder Include="KeyboardLayouts\" />
     <Folder Include="Localization" />
+    <Folder Include="Contents" />
     <Folder Include="Themes" />
     <Folder Include="Themes\Base-Dark\Images\" />
     <Folder Include="Themes\Base\" />
@@ -130,7 +134,16 @@
     <Content Include=".eslintrc.json">
       <Visible>false</Visible>
     </Content>
+    <Content Include="Contents\RoadView.content">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Contents\TableView.content">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\streets.png">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="packages.config">
       <SubType>Content</SubType>
     </Content>
     <Content Include="Server\TcHmiLua\TcHmiLua.Config.default.json">
@@ -168,10 +181,6 @@
       <SubType>Content</SubType>
       <Visible>true</Visible>
       <DependentUpon>tsconfig.tpl.json</DependentUpon>
-    </Content>
-    <Content Include="packages.config">
-      <SubType>Content</SubType>
-      <Visible>true</Visible>
     </Content>
     <Content Include="packages.xsd">
       <SubType>Content</SubType>
@@ -404,6 +413,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.targets'))" />
+    <Error Condition="!Exists('..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.props')" Text="$([System.String]::Format('$(ErrorText)', '..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.props'))" />
+    <Error Condition="!Exists('..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.targets'))" />
   </Target>
   <Import Project="..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\packages\Microsoft.TypeScript.MSBuild.4.6.4\build\Microsoft.TypeScript.MSBuild.targets')" />
+  <Import Project="..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.targets" Condition="Exists('..\TrafficDigitalTwin\packages\Microsoft.TypeScript.MSBuild.5.0.4\build\Microsoft.TypeScript.MSBuild.targets')" />
 </Project>
