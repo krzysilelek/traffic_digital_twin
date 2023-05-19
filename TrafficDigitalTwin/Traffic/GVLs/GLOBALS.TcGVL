@@ -11,15 +11,15 @@ VAR_GLOBAL
 // y - vertical part
 // SR - straights and rights
 // L - lefts
-nAHxSR, nAHySR, nAHxL, nAHyL : INT;
-nBCxSR, nBCySR, nBCxL, nBCyL : INT;
-nDExSR, nDEySR, nDExL, nDEyL : INT;
-nFGxSR, nFGySR, nFGxL, nFGyL : INT;
+nAHxSR, nAHySR, nAHxL, nAHyL : INT := 10;
+nBCxSR, nBCySR, nBCxL, nBCyL : INT := 15;
+nDExSR, nDEySR, nDExL, nDEyL : INT := 20;
+nFGxSR, nFGySR, nFGxL, nFGyL : INT := 25;
 
 // Depending on the time of day and day of week, this modifier will change from 0.0 for when there is no traffic to 1.0 at rush hours.
 rModifier : REAL;
 
-// Weights are the final product of nBaseWeightXX + nBaseWeightXX * {setting} / 5 * nModifier
+// Weights are the final product of: nBaseWeightXX + nBaseWeightXX * floor({crossroad setting} * rModifier)
 // This is the time in seconds required to pass through a node.
 nWeightAHxSR : INT;
 nWeightAHySR : INT;

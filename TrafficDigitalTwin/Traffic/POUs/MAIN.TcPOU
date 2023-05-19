@@ -8,14 +8,14 @@ END_VAR
 ]]></Declaration>
     <Implementation>
       <ST><![CDATA[TICK();
-SIM_VALUES_CALC();
 IF bShouldCalculate THEN
 	DIJKSTRA();
 	bShouldCalculate := FALSE;
 END_IF]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
-      <LineId Id="217" Count="4" />
+      <LineId Id="217" Count="0" />
+      <LineId Id="219" Count="2" />
       <LineId Id="172" Count="0" />
     </LineIds>
   </POU>
