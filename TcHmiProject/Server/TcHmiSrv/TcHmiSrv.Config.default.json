@@ -37,6 +37,15 @@
             "startOffset": 1,
             "type": "array"
         },
+        "PLC1.ARRAY_1..24_OF-INT": {
+            "items": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "maxItems": 24,
+            "minItems": 24,
+            "startOffset": 1,
+            "type": "array"
+        },
         "PLC1.POINTER-TO-INT": {
             "allOf": [
                 {
@@ -2600,6 +2609,23 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "PLC1.GLOBALS.aDistances": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::aDistances",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "comment": "List of all distances from nStartPosition"
+                    },
+                    {
+                        "$ref": "tchmi:server#/definitions/PLC1.ARRAY_1..24_OF-INT"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GLOBALS.aRoadFlags": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3846,6 +3872,7 @@
                 "LocalizeText": 3,
                 "Login": 3,
                 "Logout": 3,
+                "PLC1.GLOBALS.aDistances": 3,
                 "PLC1.GLOBALS.aRoadFlags": 3,
                 "PLC1.GLOBALS.aRoadFlags.0": 3,
                 "PLC1.GLOBALS.aRoadFlags.1": 3,

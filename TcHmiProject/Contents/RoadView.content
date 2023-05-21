@@ -79,7 +79,7 @@
 
 
 </div>
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiStartPositionCombobox" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="202" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiStartPositionCombobox" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="201" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -94,35 +94,43 @@
 [
   {
     "id": 1.0,
-    "text": "A"
+    "text": "A",
+    "value": "A"
   },
   {
     "id": 3.0,
-    "text": "B"
+    "text": "B",
+    "value": "B"
   },
   {
     "id": 5.0,
-    "text": "C"
+    "text": "C",
+    "value": "C"
   },
   {
     "id": 7.0,
-    "text": "D"
+    "text": "D",
+    "value": "D"
   },
   {
     "id": 9.0,
-    "text": "E"
+    "text": "E",
+    "value": "E"
   },
   {
     "id": 11.0,
-    "text": "F"
+    "text": "F",
+    "value": "F"
   },
   {
     "id": 13.0,
-    "text": "G"
+    "text": "G",
+    "value": "G"
   },
   {
     "id": 15.0,
-    "text": "H"
+    "text": "H",
+    "value": "H"
   }
 ]
 </script>
@@ -928,7 +936,6 @@
           "            var flags = data.value;",
           "            for (let i = 0; i < 24; i++) {",
           "            \tif(flags[i] == true){",
-          "            \t\tconsole.log(i);",
           "            \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Visible');",
           "            \t}else{",
           "            \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Hidden');",
