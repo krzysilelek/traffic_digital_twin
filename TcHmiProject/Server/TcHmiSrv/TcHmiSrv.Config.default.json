@@ -36,6 +36,16 @@
             "minItems": 24,
             "startOffset": 1,
             "type": "array"
+        },
+        "PLC1.POINTER-TO-INT": {
+            "allOf": [
+                {
+                    "allowImplicitAccess": false
+                },
+                {
+                    "$ref": "tchmi:general#/definitions/INT"
+                }
+            ]
         }
     },
     "DEFLATECOMPRESSIONLEVEL": 5,
@@ -2612,6 +2622,123 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.GLOBALS.nAHxSR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nAHxSR",
+            "SCHEMA": {
+                "allOf": [
+                    {
+                        "$ref": "tchmi:general#/definitions/INT"
+                    },
+                    {
+                        "comment": "Settings for all crossroads.\r\n They indicate what number of cars should pass through specified parts of them when the modifier is 1.0.\r\n For example, setting nAHxSR to 100 on Mondays should result in 90 cars passing through at 17:00 and only 10 at 4:00.\r\n x - horizontal part\r\n y - vertical part\r\n SR - straights and rights\r\n L - lefts"
+                    }
+                ]
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nAHyL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nAHyL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nAHySR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nAHySR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nBCxL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nBCxL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nBCxSR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nBCxSR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nBCyL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nBCyL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nBCySR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nBCySR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nDExL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nDExL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nDExSR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nDExSR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nDEyL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nDEyL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nDEySR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nDEySR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GLOBALS.nEndPosition": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -2622,6 +2749,46 @@
                 "$ref": "tchmi:general#/definitions/INT"
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nFGxL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nFGxL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nFGxSR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nFGxSR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nFGyL": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nFGyL",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.nFGySR": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::nFGySR",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
             "USEMAPPING": true
         },
         "PLC1.GLOBALS.nStartPosition": {
@@ -2690,6 +2857,16 @@
                 "$ref": "tchmi:general#/definitions/INT"
             },
             "SUBSYMBOL_MAPPING": "",
+            "USEMAPPING": true
+        },
+        "PLC1.GLOBALS.stNode1to16.nWeight": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::stNode1to16::nWeight",
+            "SCHEMA": {
+                "$ref": "tchmi:server#/definitions/PLC1.POINTER-TO-INT"
+            },
             "USEMAPPING": true
         },
         "PLC1.MAIN.bShouldCalculate": {
@@ -3695,12 +3872,28 @@
                 "PLC1.GLOBALS.aRoadFlags.8": 3,
                 "PLC1.GLOBALS.aRoadFlags.9": 3,
                 "PLC1.GLOBALS.nAHxL": 3,
+                "PLC1.GLOBALS.nAHxSR": 3,
+                "PLC1.GLOBALS.nAHyL": 3,
+                "PLC1.GLOBALS.nAHySR": 3,
+                "PLC1.GLOBALS.nBCxL": 3,
+                "PLC1.GLOBALS.nBCxSR": 3,
+                "PLC1.GLOBALS.nBCyL": 3,
+                "PLC1.GLOBALS.nBCySR": 3,
+                "PLC1.GLOBALS.nDExL": 3,
+                "PLC1.GLOBALS.nDExSR": 3,
+                "PLC1.GLOBALS.nDEyL": 3,
+                "PLC1.GLOBALS.nDEySR": 3,
                 "PLC1.GLOBALS.nEndPosition": 3,
+                "PLC1.GLOBALS.nFGxL": 3,
+                "PLC1.GLOBALS.nFGxSR": 3,
+                "PLC1.GLOBALS.nFGyL": 3,
+                "PLC1.GLOBALS.nFGySR": 3,
                 "PLC1.GLOBALS.nStartPosition": 3,
                 "PLC1.GLOBALS.nWeightAH": 3,
                 "PLC1.GLOBALS.nWeightBC": 3,
                 "PLC1.GLOBALS.nWeightDE": 3,
                 "PLC1.GLOBALS.nWeightFG": 3,
+                "PLC1.GLOBALS.stNode1to16.nWeight": 3,
                 "PLC1.MAIN.bShouldCalculate": 3,
                 "PLC1.MAIN.nEndPosition": 3,
                 "PLC1.MAIN.nStartPosition": 3,

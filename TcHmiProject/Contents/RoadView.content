@@ -79,7 +79,7 @@
 
 
 </div>
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiCombobox" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="202" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiStartPositionCombobox" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="202" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -130,16 +130,16 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiCombobox.onSelectionChanged",
+    "event": "TcHmiStartPositionCombobox.onSelectionChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.MAIN.nStartPosition%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nStartPosition%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiCombobox::SelectedId%/ctrl%"
+          "symbolExpression": "%ctrl%TcHmiStartPositionCombobox::SelectedId%/ctrl%"
         },
         "asyncWait": true
       }
@@ -162,7 +162,7 @@
 }
 </script>
 </div>
-<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiCombobox_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="322" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
+<div data-tchmi-grid-row-index="0" data-tchmi-grid-column-index="0" id="TcHmiEndPositionCombobox" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiCombobox" data-tchmi-combobox-text="Select" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="760" data-tchmi-left-unit="px" data-tchmi-top="322" data-tchmi-top-unit="px" data-tchmi-width="288" data-tchmi-width-unit="px" data-tchmi-text-horizontal-alignment="Center" data-tchmi-drop-down-category-vertical-alignment="Center" data-tchmi-drop-down-category-horizontal-alignment="Center" data-tchmi-drop-down-vertical-alignment="Center" data-tchmi-drop-down-horizontal-alignment="Center" data-tchmi-zindex="1">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -213,16 +213,16 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiCombobox_1.onSelectionChanged",
+    "event": "TcHmiEndPositionCombobox.onSelectionChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.MAIN.nEndPosition%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nEndPosition%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiCombobox_1::SelectedId%/ctrl%"
+          "symbolExpression": "%ctrl%TcHmiEndPositionCombobox::SelectedId%/ctrl%"
         },
         "asyncWait": true
       }
@@ -265,7 +265,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiCombobox_1::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%TcHmiEndPositionCombobox::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -276,7 +276,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiCombobox::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%TcHmiStartPositionCombobox::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -287,7 +287,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%AHySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -298,7 +298,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_1::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%BCySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -309,7 +309,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_2::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%DEySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -320,7 +320,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_3::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%FGySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -336,6 +336,138 @@
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
           "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DEyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Visible"
         },
         "asyncWait": true
       }
@@ -369,7 +501,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiCombobox::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%TcHmiStartPositionCombobox::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -380,7 +512,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiCombobox_1::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%TcHmiEndPositionCombobox::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -391,7 +523,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%AHySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -402,7 +534,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_1::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%BCySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -413,7 +545,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_2::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%DEySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -424,7 +556,7 @@
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_3::Visibility%/ctrl%",
+        "symbolExpression": "%ctrl%FGySR::Visibility%/ctrl%",
         "value": {
           "objectType": "StaticValue",
           "valueType": "tchmi:framework#/definitions/Visibility",
@@ -442,6 +574,138 @@
           "value": "Visible"
         },
         "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DEyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGyL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxSR::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
+      },
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxL::Visibility%/ctrl%",
+        "value": {
+          "objectType": "StaticValue",
+          "valueType": "tchmi:framework#/definitions/Visibility",
+          "value": "Hidden"
+        },
+        "asyncWait": true
       }
     ]
   }
@@ -450,7 +714,7 @@
 
 
 </div>
-<div id="TcHmiNumericInput" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="135" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="217" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-zindex="8" data-tchmi-visibility="Hidden">
+<div id="AHySR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="177" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="152" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="8" data-tchmi-visibility="Hidden">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -464,32 +728,32 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiNumericInput.onValueChanged",
+    "event": "AHySR.onValueChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.GLOBALS.nAHxL%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nAHySR%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiNumericInput::Value%/ctrl%"
+          "symbolExpression": "%ctrl%AHySR::Value%/ctrl%"
         },
         "asyncWait": true
       }
     ]
   },
   {
-    "event": "TcHmiNumericInput.onInitialized",
+    "event": "AHySR.onInitialized",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput::Value%/ctrl%",
+        "symbolExpression": "%ctrl%AHySR::Value%/ctrl%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%s%PLC1.GLOBALS.nAHxL%/s%"
+          "symbolExpression": "%s%PLC1.GLOBALS.nAHySR%/s%"
         },
         "asyncWait": true
       }
@@ -498,7 +762,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiNumericInput_1" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="400" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="217" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-zindex="11" data-tchmi-visibility="Hidden">
+<div id="BCySR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="432" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="152" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="11" data-tchmi-visibility="Hidden">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -512,32 +776,32 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiNumericInput_1.onValueChanged",
+    "event": "BCySR.onValueChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.GLOBALS.nWeightBC%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nBCySR%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiNumericInput_1::Value%/ctrl%"
+          "symbolExpression": "%ctrl%BCySR::Value%/ctrl%"
         },
         "asyncWait": true
       }
     ]
   },
   {
-    "event": "TcHmiNumericInput_1.onInitialized",
+    "event": "BCySR.onInitialized",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_1::Value%/ctrl%",
+        "symbolExpression": "%ctrl%BCySR::Value%/ctrl%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%s%PLC1.GLOBALS.nWeightBC%/s%"
+          "symbolExpression": "%s%PLC1.GLOBALS.nBCySR%/s%"
         },
         "asyncWait": true
       }
@@ -546,7 +810,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiNumericInput_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="400" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="474" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-zindex="10" data-tchmi-visibility="Hidden">
+<div id="DEySR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="472" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="528" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="10" data-tchmi-visibility="Hidden">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -560,32 +824,32 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiNumericInput_2.onValueChanged",
+    "event": "DEySR.onValueChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.GLOBALS.nWeightDE%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nDEySR%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiNumericInput_2::Value%/ctrl%"
+          "symbolExpression": "%ctrl%DEySR::Value%/ctrl%"
         },
         "asyncWait": true
       }
     ]
   },
   {
-    "event": "TcHmiNumericInput_2.onInitialized",
+    "event": "DEySR.onInitialized",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_2::Value%/ctrl%",
+        "symbolExpression": "%ctrl%DEySR::Value%/ctrl%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%s%PLC1.GLOBALS.nWeightDE%/s%"
+          "symbolExpression": "%s%PLC1.GLOBALS.nDEySR%/s%"
         },
         "asyncWait": true
       }
@@ -594,7 +858,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiNumericInput_3" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="26" data-tchmi-height-unit="px" data-tchmi-left="135" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="474" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-zindex="9" data-tchmi-visibility="Hidden">
+<div id="FGySR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="212" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="524" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="39" data-tchmi-width-unit="px" data-tchmi-zindex="9" data-tchmi-visibility="Hidden">
 <script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
 {
   "top": 3,
@@ -608,32 +872,32 @@
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [
   {
-    "event": "TcHmiNumericInput_3.onValueChanged",
+    "event": "FGySR.onValueChanged",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%s%PLC1.GLOBALS.nWeightFG%/s%",
+        "symbolExpression": "%s%PLC1.GLOBALS.nFGySR%/s%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%ctrl%TcHmiNumericInput_3::Value%/ctrl%"
+          "symbolExpression": "%ctrl%FGySR::Value%/ctrl%"
         },
         "asyncWait": true
       }
     ]
   },
   {
-    "event": "TcHmiNumericInput_3.onInitialized",
+    "event": "FGySR.onInitialized",
     "actions": [
       {
         "objectType": "WriteToSymbol",
         "active": true,
-        "symbolExpression": "%ctrl%TcHmiNumericInput_3::Value%/ctrl%",
+        "symbolExpression": "%ctrl%FGySR::Value%/ctrl%",
         "value": {
           "objectType": "Symbol",
           "valueType": "tchmi:general#/definitions/String",
-          "symbolExpression": "%s%PLC1.GLOBALS.nWeightFG%/s%"
+          "symbolExpression": "%s%PLC1.GLOBALS.nFGySR%/s%"
         },
         "asyncWait": true
       }
@@ -658,18 +922,21 @@
         "active": true,
         "sourceLines": [
           "TcHmi.Symbol.writeEx('%s%PLC1.MAIN.bShouldCalculate%/s%', true);",
-          "setTimeout(function(){",
-          "    for(let i = 0; i < 24; i++){",
-          "        TcHmi.Symbol.readEx2('%s%PLC1.GLOBALS.aRoadFlags.'+i.toString()+'%/s%', function (data) {",
-          "    \tif(data.error === TcHmi.Errors.NONE) {",
-          "        \tif(data.value == true){",
-          "        \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Visible');",
-          "        \t}else{",
-          "           \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Hidden');                     \t\t\t",
-          "        \t}",
-          "    \t}});",
-          "    }",
-          "           \t\t",
+          "setTimeout(function() {",
+          "    TcHmi.Symbol.readEx2('%s%PLC1.GLOBALS.aRoadFlags%/s%', function(data) {",
+          "        if (data.error === TcHmi.Errors.NONE) {",
+          "            var flags = data.value;",
+          "            for (let i = 0; i < 24; i++) {",
+          "            \tif(flags[i] == true){",
+          "            \t\tconsole.log(i);",
+          "            \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Visible');",
+          "            \t}else{",
+          "            \t\tTcHmi.Symbol.writeEx('%ctrl%road'+(i+1).toString()+'::Visibility%/ctrl%', 'Hidden');",
+          "            \t}",
+          "                ",
+          "            }",
+          "        }",
+          "    });",
           "}, 500);"
         ],
         "injectContextObject": true,
@@ -704,14 +971,7 @@
 ]
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "%s%PLC1.GLOBALS.aRoadFlags.0%/s%",
-    "actions": []
-  }
-]
-</script>
+
 </div>
 <div id="road2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiRectangle" data-tchmi-height="38" data-tchmi-height-unit="px" data-tchmi-left="169" data-tchmi-left-unit="px" data-tchmi-top="146" data-tchmi-top-unit="px" data-tchmi-width="126" data-tchmi-width-unit="px" data-tchmi-zindex="7" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-opacity="0.6" data-tchmi-visibility="Hidden">
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
@@ -1071,6 +1331,582 @@
       "y": 0.0,
       "z": 1.0
     }
+  }
+]
+</script>
+</div>
+<div id="AHyL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="212" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="152" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="39" data-tchmi-width-unit="px" data-tchmi-zindex="14" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "AHyL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHyL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nAHyL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "AHyL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nAHyL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%AHyL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="AHxL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="135" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="191" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="15" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "AHxL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nAHxL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "AHxL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nAHxL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%AHxL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="AHxSR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="36" data-tchmi-height-unit="px" data-tchmi-left="135" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="230" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="16" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "AHxSR.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%AHxSR::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nAHxSR%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "AHxSR.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nAHxSR%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%AHxSR::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="BCyL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="467" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="152" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="39" data-tchmi-width-unit="px" data-tchmi-zindex="17" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "BCyL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCyL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nBCySR%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "BCyL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nBCyL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%BCyL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="BCxSR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="513" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="191" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="18" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "BCxSR.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxSR::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nBCxSR%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "BCxSR.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nBCxSR%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%BCxSR::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="BCxL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="513" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="229" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="19" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "BCxL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%BCxL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nBCxL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "BCxL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nBCxL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%BCxL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="DEyL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="35" data-tchmi-height-unit="px" data-tchmi-left="437" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="528" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="20" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "DEyL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DEyL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nDEyL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "DEyL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nDEyL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%DEyL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="DExSR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="38" data-tchmi-height-unit="px" data-tchmi-left="512" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="448" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="38" data-tchmi-width-unit="px" data-tchmi-zindex="22" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "DExSR.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExSR::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nDExSR%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "DExSR.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nDExSR%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%DExSR::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="DExL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="512" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="486" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="38" data-tchmi-width-unit="px" data-tchmi-zindex="23" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "DExL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%DExL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nDExL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "DExL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nDExL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%DExL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="FGyL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="39" data-tchmi-height-unit="px" data-tchmi-left="177" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="524" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="35" data-tchmi-width-unit="px" data-tchmi-zindex="24" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "FGyL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGyL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nFGyL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "FGyL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nFGyL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%FGyL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="FGxSR" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="140" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="486" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="25" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "FGxSR.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxSR::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nFGxSR%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "FGxSR.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nFGxSR%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%FGxSR::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
+  }
+]
+</script>
+</div>
+<div id="FGxL" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiNumericInput" data-tchmi-auto-focus-out="true" data-tchmi-decimal-digits="0" data-tchmi-height="37" data-tchmi-height-unit="px" data-tchmi-left="140" data-tchmi-left-unit="px" data-tchmi-max-value="100" data-tchmi-min-value="0" data-tchmi-reset-to-last-valid-value="true" data-tchmi-top="448" data-tchmi-top-unit="px" data-tchmi-value="0" data-tchmi-width="37" data-tchmi-width-unit="px" data-tchmi-zindex="26" data-tchmi-visibility="Hidden">
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "top": 3,
+  "right": 3,
+  "bottom": 3,
+  "left": 3
+}
+</script>
+
+
+<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
+[
+  {
+    "event": "FGxL.onInitialized",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%ctrl%FGxL::Value%/ctrl%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%s%PLC1.GLOBALS.nFGxL%/s%"
+        },
+        "asyncWait": true
+      }
+    ]
+  },
+  {
+    "event": "FGxL.onValueChanged",
+    "actions": [
+      {
+        "objectType": "WriteToSymbol",
+        "active": true,
+        "symbolExpression": "%s%PLC1.GLOBALS.nFGxL%/s%",
+        "value": {
+          "objectType": "Symbol",
+          "valueType": "tchmi:general#/definitions/String",
+          "symbolExpression": "%ctrl%FGxL::Value%/ctrl%"
+        },
+        "asyncWait": true
+      }
+    ]
   }
 ]
 </script>

@@ -30,7 +30,7 @@
     <HmiCommunicationRouterPort>10100</HmiCommunicationRouterPort>
     <HmiCommunicationServerAuthPort>13000</HmiCommunicationServerAuthPort>
     <HmiInitial>1.12.758.8</HmiInitial>
-    <HmiRecent>1.12.760.37</HmiRecent>
+    <HmiRecent>1.12.758.8</HmiRecent>
     <HmiServerNodeAdvancedView>False</HmiServerNodeAdvancedView>
     <HmiViewportHeight>800</HmiViewportHeight>
     <HmiViewportWidth>1024</HmiViewportWidth>

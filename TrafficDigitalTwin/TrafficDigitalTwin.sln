@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# TcXaeShell Solution File, Format Version 11.00
-VisualStudioVersion = 15.0.33403.129
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33529.622
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{B1E792BE-AA5F-4E3C-8C82-674BF9C0715B}") = "TrafficDigitalTwin", "TrafficDigitalTwin.tsproj", "{2BB2C4CD-504D-4157-924C-B4343A290897}"
 EndProject
