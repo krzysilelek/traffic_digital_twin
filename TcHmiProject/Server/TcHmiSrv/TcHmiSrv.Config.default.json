@@ -28,6 +28,21 @@
     "DEFAULTTIMEZONE": "client",
     "DEFAULTUSERGROUP": "__SystemUsers",
     "DEFINITIONS": {
+        "PLC1.ARRAY_0..7_OF-STRING-1": {
+            "items": {
+                "allOf": [
+                    {
+                        "maxLength": 1
+                    },
+                    {
+                        "$ref": "tchmi:general#/definitions/String"
+                    }
+                ]
+            },
+            "maxItems": 8,
+            "minItems": 8,
+            "type": "array"
+        },
         "PLC1.ARRAY_1..24_OF-BOOL": {
             "items": {
                 "$ref": "tchmi:general#/definitions/BOOL"
@@ -2895,6 +2910,16 @@
             },
             "USEMAPPING": true
         },
+        "PLC1.HMI.customRows": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::HMI::customRows",
+            "SCHEMA": {
+                "$ref": "tchmi:server#/definitions/PLC1.ARRAY_0..7_OF-STRING-1"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.MAIN.bShouldCalculate": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3921,6 +3946,7 @@
                 "PLC1.GLOBALS.nWeightDE": 3,
                 "PLC1.GLOBALS.nWeightFG": 3,
                 "PLC1.GLOBALS.stNode1to16.nWeight": 3,
+                "PLC1.HMI.customRows": 3,
                 "PLC1.MAIN.bShouldCalculate": 3,
                 "PLC1.MAIN.nEndPosition": 3,
                 "PLC1.MAIN.nStartPosition": 3,
