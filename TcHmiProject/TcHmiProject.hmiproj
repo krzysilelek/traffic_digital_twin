@@ -140,6 +140,9 @@
     <Content Include="Contents\TableView.content">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="datagrid.css">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Images\streets.png">
       <SubType>Content</SubType>
     </Content>

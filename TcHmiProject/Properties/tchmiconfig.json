@@ -48,6 +48,11 @@
       "name": "Fonts/Fonts.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "datagrid.css",
+      "description": "",
+      "type": "Stylesheet"
     }
   ],
   "userControls": [],

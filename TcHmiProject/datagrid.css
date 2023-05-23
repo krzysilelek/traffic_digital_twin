@@ -1,0 +1,11 @@
+﻿.TcHmi_Controls_Beckhoff_TcHmiDatagrid-cell-disabled::after {
+    content: none;
+}
+
+.TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-cell, .tchmi-datagrid-template-cell {
+    background-color: #000000;
+}
+
+.TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-cell input[type="text"], .TcHmi_Controls_Beckhoff_TcHmiDatagrid-template-cell input[type="text"]:disabled, .tchmi-datagrid-template-cell input[type="text"]{
+    color: #ffffff;
+}
