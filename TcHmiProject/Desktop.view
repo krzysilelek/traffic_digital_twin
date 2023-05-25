@@ -239,7 +239,7 @@
 ]
 </script>
 </div>
-<div id="TcHmiTextblock_13" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="778" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="150" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-text="%s%PLC1.TICK.tdSimTime%/s%" data-tchmi-text-font-weight="Auto">
+<div id="TcHmiTextblock_13" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="893" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="56" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Right" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-text-font-weight="Auto" data-tchmi-text="%f%TcHmi.Functions.TcHmiProject.betterHour(%s%PLC1.TICK.SimTime%/s%)%/f%">
 
 <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
 {
@@ -257,7 +257,7 @@
 <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
 {
   "left": "Solid",
-  "right": "Solid",
+  "right": "None",
   "top": "Solid",
   "bottom": "Solid"
 }
@@ -282,8 +282,21 @@
 </script>
 
 
+
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "left": 0,
+  "right": 5,
+  "top": 0,
+  "bottom": 0,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
 </div>
-<div id="TcHmiTextblock_14" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="928" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="127" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-text="%s%PLC1.TICK.nDayOfTheWeek%/s%">
+<div id="TcHmiTextblock_14" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="949" data-tchmi-left-unit="px" data-tchmi-top="10" data-tchmi-top-unit="px" data-tchmi-width="100" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Left" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="14" data-tchmi-text="%f%TcHmi.Functions.TcHmiProject.whichDay(%s%PLC1.TICK.nDayOfTheWeek%/s%)%/f%">
 <script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
 {
   "left": 1,
@@ -299,7 +312,7 @@
 
 <script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
 {
-  "left": "Solid",
+  "left": "None",
   "right": "Solid",
   "top": "Solid",
   "bottom": "Solid"
@@ -325,5 +338,18 @@
 </script>
 
 
+
+<script data-tchmi-target-attribute="data-tchmi-content-padding" type="application/json">
+{
+  "left": 5,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
 </div>
 </div>

@@ -53,6 +53,16 @@
       "name": "datagrid.css",
       "description": "",
       "type": "Stylesheet"
+    },
+    {
+      "name": "betterHour.js",
+      "description": "",
+      "type": "JavaScript"
+    },
+    {
+      "name": "whichDay.js",
+      "description": "",
+      "type": "JavaScript"
     }
   ],
   "userControls": [],
@@ -80,7 +90,14 @@
       "preloadBindings": false
     }
   ],
-  "userFunctions": [],
+  "userFunctions": [
+    {
+      "url": "betterHour.js"
+    },
+    {
+      "url": "whichDay.js"
+    }
+  ],
   "symbols": {
     "internal": {},
     "themedResources": {}

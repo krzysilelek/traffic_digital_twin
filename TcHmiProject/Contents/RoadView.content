@@ -1060,7 +1060,7 @@
 </div>
 
 
-<div id="TcHmiAdsState" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiAdsState" data-tchmi-ads-runtime="PLC1" data-tchmi-height="64" data-tchmi-height-unit="px" data-tchmi-left="1012" data-tchmi-left-unit="px" data-tchmi-server-interval="500" data-tchmi-top="27" data-tchmi-top-unit="px" data-tchmi-width="64" data-tchmi-width-unit="px">
+<div id="TcHmiAdsState" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiAdsState" data-tchmi-ads-runtime="PLC1" data-tchmi-height="64" data-tchmi-height-unit="px" data-tchmi-left="984" data-tchmi-left-unit="px" data-tchmi-server-interval="500" data-tchmi-top="27" data-tchmi-top-unit="px" data-tchmi-width="64" data-tchmi-width-unit="px">
 </div>
 <div id="TcHmiButton_2" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="821" data-tchmi-left-unit="px" data-tchmi-text="Plot a route" data-tchmi-top="386" data-tchmi-top-unit="px" data-tchmi-width="157" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-visibility="Visible" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center" data-tchmi-zindex="13">
 

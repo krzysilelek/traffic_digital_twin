@@ -114,6 +114,20 @@
   <Target Name="Clean" DependsOnTargets="$(CleanDependsOn)" />
   <Target Name="ReBuild" DependsOnTargets="Clean; Build" />
   <ItemGroup>
+    <Content Include="betterHour.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>betterHour.js</DependentUpon>
+    </Content>
+    <Content Include="betterHour.js">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="whichDay.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>whichDay.js</DependentUpon>
+    </Content>
+    <Content Include="whichDay.js">
+      <SubType>Content</SubType>
+    </Content>
     <Folder Include="Fonts\" />
     <Folder Include="Images" />
     <Folder Include="Images\Manifest" />
