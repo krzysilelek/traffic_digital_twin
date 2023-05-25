@@ -7,7 +7,7 @@
 
 
 
-<div id="TcHmiDatagrid" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-height-unit="px" data-tchmi-left="58" data-tchmi-left-unit="px" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-width="903" data-tchmi-height="293" data-tchmi-show-row-numbers="false" data-tchmi-row-numbers-start-number="1" data-tchmi-row-numbers-resizable="false">
+<div id="TcHmiDatagrid" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-height-unit="px" data-tchmi-left="58" data-tchmi-left-unit="px" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-width="903" data-tchmi-height="285" data-tchmi-show-row-numbers="false" data-tchmi-row-numbers-start-number="1" data-tchmi-row-numbers-resizable="false">
 
 
 <script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
@@ -332,8 +332,30 @@
   "color": "rgba(0, 0, 0, 1)"
 }
 </script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+{
+  "left": 0,
+  "right": 0,
+  "top": 0,
+  "bottom": 0,
+  "leftUnit": "px",
+  "rightUnit": "px",
+  "topUnit": "px",
+  "bottomUnit": "px"
+}
+</script>
+
+<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
+{
+  "left": "Solid",
+  "right": "Solid",
+  "top": "Solid",
+  "bottom": "Solid"
+}
+</script>
 </div>
-<div id="TcHmiButton_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="413" data-tchmi-left-unit="px" data-tchmi-text="Update table" data-tchmi-top="438" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
+<div id="TcHmiButton_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="416" data-tchmi-left-unit="px" data-tchmi-text="Update table" data-tchmi-top="421" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
 
 <script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
 [

@@ -2934,6 +2934,46 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "PLC1.TICK.SimTime": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::TICK::SimTime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/UDINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.TICK.nDayOfTheWeek": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::TICK::nDayOfTheWeek",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/INT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.TICK.tdSimTime": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::TICK::tdSimTime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/TIME_OF_DAY"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.TICK.tdTickTime": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::TICK::tdTickTime",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/TIME_OF_DAY"
+            },
+            "USEMAPPING": true
+        },
         "RefreshDefinitions": {
             "ACCESS": 3,
             "CUSTOMERDATA": "",
@@ -3950,6 +3990,10 @@
                 "PLC1.MAIN.bShouldCalculate": 3,
                 "PLC1.MAIN.nEndPosition": 3,
                 "PLC1.MAIN.nStartPosition": 3,
+                "PLC1.TICK.SimTime": 3,
+                "PLC1.TICK.nDayOfTheWeek": 3,
+                "PLC1.TICK.tdSimTime": 3,
+                "PLC1.TICK.tdTickTime": 3,
                 "SetLocale": 3,
                 "SubscribeEvents": 3,
                 "TcHmiSqliteLogger.Diagnostics": 1,
