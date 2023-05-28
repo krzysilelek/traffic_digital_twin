@@ -121,6 +121,13 @@
     <Content Include="betterHour.js">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="getDataToDatagrid.function.json">
+      <SubType>Content</SubType>
+      <DependentUpon>getDataToDatagrid.js</DependentUpon>
+    </Content>
+    <Content Include="getDataToDatagrid.js">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="whichDay.function.json">
       <SubType>Content</SubType>
       <DependentUpon>whichDay.js</DependentUpon>

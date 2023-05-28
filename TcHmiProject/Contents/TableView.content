@@ -1,4 +1,4 @@
-<div id="Content1" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1097" data-tchmi-height="700">
+<div id="Content1" data-tchmi-type="TcHmi.Controls.System.TcHmiContent" data-tchmi-top="0" data-tchmi-left="0" data-tchmi-width="1097" data-tchmi-height="700" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
 
 
 
@@ -7,7 +7,7 @@
 
 
 
-<div id="TcHmiDatagrid" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-height-unit="px" data-tchmi-left="58" data-tchmi-left-unit="px" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-width="903" data-tchmi-height="285" data-tchmi-show-row-numbers="false" data-tchmi-row-numbers-start-number="1" data-tchmi-row-numbers-resizable="false">
+<div id="TcHmiDatagrid" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiDatagrid" data-tchmi-height-unit="px" data-tchmi-left="97" data-tchmi-left-unit="px" data-tchmi-top="114" data-tchmi-top-unit="px" data-tchmi-width-unit="px" data-tchmi-width="903" data-tchmi-height="285" data-tchmi-show-row-numbers="false" data-tchmi-row-numbers-start-number="1" data-tchmi-row-numbers-resizable="false" data-tchmi-src-data="%f%TcHmi.Functions.TcHmiProject.getDataToDatagrid(%s%PLC1.TICK.SimTime%/s%)%/f%" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
 
 
 <script data-tchmi-target-attribute="data-tchmi-cell-content-padding" type="application/json">
@@ -28,80 +28,7 @@
 
 
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiDatagrid.onInitialized",
-    "actions": [
-      {
-        "objectType": "JavaScript",
-        "active": true,
-        "sourceLines": [
-          "var wait = (ms) => {",
-          "    const start = Date.now();",
-          "    let now = start;",
-          "    while (now - start < ms) {",
-          "      now = Date.now();",
-          "    }",
-          "}",
-          "",
-          "function checkIfRoutesAreCalculated(){",
-          "\tlet check = new TcHmi.Symbol('%s%PLC1.MAIN.bShouldCalculate%/s%');",
-          "\tcheck.readEx(function (data) {",
-          "    \tif (data.error === TcHmi.Errors.NONE) {",
-          "\t    \tif(data.value == true){",
-          "\t\t\t\twait(100);",
-          "\t\t\t\tcheckIfRoutesAreCalculated();\t\t\t\t",
-          "\t        }        \t\t",
-          "    \t}                    \t",
-          "\t});",
-          "}",
-          "",
-          "let neededDistances = new Array();",
-          "let letters = [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\"];",
-          "let which_entrance = 1;",
-          "",
-          "for(let j = 0; j < letters.length; j++){",
-          "\tTcHmi.Symbol.writeEx('%s%PLC1.GLOBALS.nStartPosition%/s%', which_entrance);",
-          "\tTcHmi.Symbol.writeEx('%s%PLC1.MAIN.bShouldCalculate%/s%', true);",
-          "\twhich_entrance += 2;",
-          "\t",
-          "\tcheckIfRoutesAreCalculated();",
-          "\t",
-          "\tlet allDistances = new TcHmi.Symbol('%s%PLC1.GLOBALS.aDistances%/s%');",
-          "\tallDistances.readEx(function (data) {",
-          "    \tif (data.error === TcHmi.Errors.NONE) {",
-          "    \t    for(var i = 1; i < letters.length*2; i += 2){",
-          "    \t\t   \tneededDistances.push({value: `${data.value[i]}`});",
-          "    \t\t}                   \t\t",
-          "\t\t}",
-          "\t\tif(j == letters.length-1){",
-          "\t        let bigJSON = new Array();",
-          "\t\t\tfor(let i = 0; i < 8; i++){     \t",
-          "\t\t        bigJSON.push({L: letters[i],",
-          "\t        \t              LA: neededDistances[i].value,",
-          "\t                      \t  LB: neededDistances[i+8].value,",
-          "\t                      \t  LC: neededDistances[i+16].value,",
-          "\t                      \t  LD: neededDistances[i+24].value,",
-          "\t                      \t  LE: neededDistances[i+32].value,",
-          "\t                      \t  LF: neededDistances[i+40].value,",
-          "\t                      \t  LG: neededDistances[i+48].value,",
-          "\t                      \t  LH: neededDistances[i+56].value",
-          "\t                     \t});",
-          "\t        }",
-          "\t\t\tTcHmi.Symbol.writeEx('%ctrl%TcHmiDatagrid::SrcData%/ctrl%', JSON.stringify(bigJSON));",
-          "\t    }",
-          "\t});",
-          "}"
-        ],
-        "injectContextObject": true,
-        "asyncWait": true,
-        "waitMode": "Synchronous"
-      }
-    ]
-  }
-]
-</script>
+
 
 <script data-tchmi-target-attribute="data-tchmi-src-column" type="application/json">
 [
@@ -354,92 +281,12 @@
   "bottom": "Solid"
 }
 </script>
+
+
 </div>
-<div id="TcHmiButton_4" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiButton" data-tchmi-height="50" data-tchmi-height-unit="px" data-tchmi-left="416" data-tchmi-left-unit="px" data-tchmi-text="Update table" data-tchmi-top="421" data-tchmi-top-unit="px" data-tchmi-width="200" data-tchmi-width-unit="px" data-tchmi-word-wrap="true">
 
-<script data-tchmi-target-attribute="data-tchmi-trigger" type="application/json">
-[
-  {
-    "event": "TcHmiButton_4.onPressed",
-    "actions": [
-      {
-        "objectType": "JavaScript",
-        "active": true,
-        "sourceLines": [
-          "var wait = (ms) => {",
-          "    const start = Date.now();",
-          "    let now = start;",
-          "    while (now - start < ms) {",
-          "      now = Date.now();",
-          "    }",
-          "}",
-          "",
-          "function checkIfRoutesAreCalculated(){",
-          "\tlet check = new TcHmi.Symbol('%s%PLC1.MAIN.bShouldCalculate%/s%');",
-          "\tcheck.readEx(function (data) {",
-          "    \tif (data.error === TcHmi.Errors.NONE) {",
-          "\t    \tif(data.value == true){",
-          "\t\t\t\twait(100);",
-          "\t\t\t\tcheckIfRoutesAreCalculated();\t\t\t\t",
-          "\t        }        \t\t",
-          "    \t}                    \t",
-          "\t});",
-          "}",
-          "",
-          "let neededDistances = new Array();",
-          "let letters = [\"A\", \"B\", \"C\", \"D\", \"E\", \"F\", \"G\", \"H\"];",
-          "let which_entrance = 1;",
-          "",
-          "for(let j = 0; j < letters.length; j++){",
-          "\tTcHmi.Symbol.writeEx('%s%PLC1.GLOBALS.nStartPosition%/s%', which_entrance);",
-          "\tTcHmi.Symbol.writeEx('%s%PLC1.MAIN.bShouldCalculate%/s%', true);",
-          "\twhich_entrance += 2;",
-          "\t",
-          "\tcheckIfRoutesAreCalculated();",
-          "\t",
-          "\tlet allDistances = new TcHmi.Symbol('%s%PLC1.GLOBALS.aDistances%/s%');",
-          "\tallDistances.readEx(function (data) {",
-          "    \tif (data.error === TcHmi.Errors.NONE) {",
-          "    \t    for(var i = 1; i < letters.length*2; i += 2){",
-          "    \t\t   \tneededDistances.push({value: `${data.value[i]}`});",
-          "    \t\t}                   \t\t",
-          "\t\t}",
-          "\t\tif(j == letters.length-1){",
-          "\t        let bigJSON = new Array();",
-          "\t\t\tfor(let i = 0; i < 8; i++){     \t",
-          "\t\t        bigJSON.push({L: letters[i],",
-          "\t        \t              LA: neededDistances[i].value,",
-          "\t                      \t  LB: neededDistances[i+8].value,",
-          "\t                      \t  LC: neededDistances[i+16].value,",
-          "\t                      \t  LD: neededDistances[i+24].value,",
-          "\t                      \t  LE: neededDistances[i+32].value,",
-          "\t                      \t  LF: neededDistances[i+40].value,",
-          "\t                      \t  LG: neededDistances[i+48].value,",
-          "\t                      \t  LH: neededDistances[i+56].value",
-          "\t                     \t});",
-          "\t        }",
-          "\t\t\tTcHmi.Symbol.writeEx('%ctrl%TcHmiDatagrid::SrcData%/ctrl%', JSON.stringify(bigJSON));",
-          "\t    }",
-          "\t});",
-          "}"
-        ],
-        "injectContextObject": false,
-        "asyncWait": true,
-        "waitMode": "Synchronous"
-      }
-    ]
-  }
-]
-</script>
 
-<script data-tchmi-target-attribute="data-tchmi-border-style" type="application/json">
-{
-  "left": "Solid",
-  "right": "Solid",
-  "top": "Solid",
-  "bottom": "Solid"
-}
-</script>
+<div id="TcHmiTextblock_15" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="77" data-tchmi-height-unit="px" data-tchmi-left="97" data-tchmi-left-unit="px" data-tchmi-text="Entrances" data-tchmi-top="27" data-tchmi-top-unit="px" data-tchmi-width="903" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="48" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
 
 <script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
@@ -447,31 +294,41 @@
 }
 </script>
 
-
-
 <script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
-  "color": "None"
+  "color": "rgba(0, 0, 0, 1)"
 }
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-border-color" type="application/json">
+
+</div>
+<div id="TcHmiTextblock_16" data-tchmi-type="TcHmi.Controls.Beckhoff.TcHmiTextblock" data-tchmi-height="77" data-tchmi-height-unit="px" data-tchmi-left="-100" data-tchmi-left-unit="px" data-tchmi-text="Exits" data-tchmi-top="221" data-tchmi-top-unit="px" data-tchmi-width="284" data-tchmi-width-unit="px" data-tchmi-word-wrap="true" data-tchmi-text-horizontal-alignment="Center" data-tchmi-text-vertical-alignment="Center" data-tchmi-text-font-size="48" data-tchmi-background-image-horizontal-alignment="Center" data-tchmi-background-image-vertical-alignment="Center">
+<script data-tchmi-target-attribute="data-tchmi-text-color" type="application/json">
 {
   "color": "rgba(255, 255, 255, 1)"
 }
 </script>
 
-<script data-tchmi-target-attribute="data-tchmi-border-width" type="application/json">
+<script data-tchmi-target-attribute="data-tchmi-background-color" type="application/json">
 {
-  "left": 1,
-  "right": 1,
-  "top": 1,
-  "bottom": 1,
-  "leftUnit": "px",
-  "rightUnit": "px",
-  "topUnit": "px",
-  "bottomUnit": "px"
+  "color": "rgba(0, 0, 0, 1)"
 }
+</script>
+
+
+
+<script data-tchmi-target-attribute="data-tchmi-transform" type="application/json">
+[
+  {
+    "transformType": "Rotate",
+    "angle": -90.0,
+    "vector": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 1.0
+    }
+  }
+]
 </script>
 </div>
 

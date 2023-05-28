@@ -2653,6 +2653,16 @@
             "SUBSYMBOL_MAPPING": "",
             "USEMAPPING": true
         },
+        "PLC1.GLOBALS.countAll": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::GLOBALS::countAll",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
+            },
+            "USEMAPPING": true
+        },
         "PLC1.GLOBALS.nAHxL": {
             "ACCESS": 3,
             "DOMAIN": "ADS",
@@ -2941,6 +2951,16 @@
             "MAPPING": "PLC1::TICK::SimTime",
             "SCHEMA": {
                 "$ref": "tchmi:general#/definitions/UDINT"
+            },
+            "USEMAPPING": true
+        },
+        "PLC1.TICK.canGrabTableData": {
+            "ACCESS": 3,
+            "DOMAIN": "ADS",
+            "DYNAMIC": true,
+            "MAPPING": "PLC1::TICK::canGrabTableData",
+            "SCHEMA": {
+                "$ref": "tchmi:general#/definitions/BOOL"
             },
             "USEMAPPING": true
         },
@@ -3963,6 +3983,7 @@
                 "PLC1.GLOBALS.aRoadFlags.7": 3,
                 "PLC1.GLOBALS.aRoadFlags.8": 3,
                 "PLC1.GLOBALS.aRoadFlags.9": 3,
+                "PLC1.GLOBALS.countAll": 3,
                 "PLC1.GLOBALS.nAHxL": 3,
                 "PLC1.GLOBALS.nAHxSR": 3,
                 "PLC1.GLOBALS.nAHyL": 3,
@@ -3991,6 +4012,7 @@
                 "PLC1.MAIN.nEndPosition": 3,
                 "PLC1.MAIN.nStartPosition": 3,
                 "PLC1.TICK.SimTime": 3,
+                "PLC1.TICK.canGrabTableData": 3,
                 "PLC1.TICK.nDayOfTheWeek": 3,
                 "PLC1.TICK.tdSimTime": 3,
                 "PLC1.TICK.tdTickTime": 3,
