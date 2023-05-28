@@ -24,7 +24,6 @@ FOR i := 1 TO 24 DO
 		FOR nNodeInList := 1 TO 3 DO
 			nAdjacentNode := GLOBALS.stGraph.aAdjLists[nMinDistanceNode]^.aAdjNodes[nNodeInList]^.nNode;
 			nDistance := GLOBALS.stGraph.aAdjLists[nMinDistanceNode]^.aAdjNodes[nNodeInList]^.nWeight^;
-			// z tych 3 warunkow, warunek 2 chyba jest niepotrzebny ale nie pamietam
 			IF NOT (aVisited[nAdjacentNode]) AND NOT (GLOBALS.aDistances[nMinDistanceNode] = CONSTANTS.nIntMax) AND (GLOBALS.aDistances[nMinDistanceNode] + nDistance < GLOBALS.aDistances[nAdjacentNode]) THEN
 				GLOBALS.aDistances[nAdjacentNode] := GLOBALS.aDistances[nMinDistanceNode] + nDistance;
 				aParents[nAdjacentNode] :=  nMinDistanceNode;
@@ -44,9 +43,7 @@ GET_SHORTEST_PATH(GLOBALS.nEndPosition, aParents);]]></ST>
       <LineId Id="23" Count="0" />
       <LineId Id="61" Count="0" />
       <LineId Id="33" Count="0" />
-      <LineId Id="50" Count="6" />
-      <LineId Id="99" Count="0" />
-      <LineId Id="57" Count="1" />
+      <LineId Id="50" Count="8" />
       <LineId Id="73" Count="0" />
       <LineId Id="59" Count="1" />
       <LineId Id="48" Count="1" />
